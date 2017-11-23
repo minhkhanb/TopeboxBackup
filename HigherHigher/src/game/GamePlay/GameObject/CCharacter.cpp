@@ -16,8 +16,9 @@ void CCharacter::Init(int spriteid, int anim, float x, float y)
 	SetPos(x, y);
 	_spriteid = spriteid;
 	int param = CGameDesign::FileLevel::CSheetGeneral::paramater;
-	float speed_multi = game->_game_design.Achievement.SheetMultiplier.floatValue.getValue(game->_quest._level, CGameDesign::FileAchievement::CSheetMultiplier::speed_title);
-	_speed = (game->GetDesignGeneralint(DESIGN_PARAM_SPEED_START, param)*speed_multi)*game->_port_scale_x;
+	float speed_multi = game->_game_design.Achievement.SheetMultiplier.floatValue.getValue(game->_quest._level, CGameDesign::FileAchievement::CSheetMultiplier::speed_change);
+	//_speed = (game->GetDesignGeneralint(DESIGN_PARAM_SPEED_START, param)*speed_multi)*game->_port_scale_x;
+	_speed = speed_multi * game->_port_scale_x;
 	//_speed_increase = game->GetDesignGeneralint(DESIGN_PARAM_SPEED_INCREASE, param)*game->_port_scale_x;
 	int param_speed = CGameDesign::FileLevel::CSheetlevel::speed_increase;
 	_speed_increase = game->GetDesignSpeedFloat(game->_bounce_count_times, param_speed)*game->_port_scale_x;

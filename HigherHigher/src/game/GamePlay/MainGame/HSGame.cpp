@@ -45,6 +45,7 @@ void HSGame::Init()
 
 #endif
 	GAME()->_times_play_game = 1;
+	GAME()->isClosedInterstitialAd = false;
 }
 
 void HSGame::UpdateAndRender()

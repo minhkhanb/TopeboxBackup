@@ -126,6 +126,7 @@ void CGame::ResumeEx()
 	}
 	if (!game->_show_ads_interrupt)
 	{
+		GAME()->isClosedInterstitialAd = false;
 		game->_show_ads_interrupt = true;
 	}
 	game->SetResume();
@@ -159,6 +160,7 @@ void CGame::UpdateTouch(int xx, int yy, int touch_state, int touch_id, int tap_c
 	{
 
 	}*/
+	GAME()->isClosedInterstitialAd = true;
 }
 
 

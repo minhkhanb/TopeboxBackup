@@ -208,7 +208,11 @@ void CDialog::RenderDialogPopup(float x, float y, PineMatrix4 tranf)
 	}
 	else if (_typeDialog == CDialog::enumTypeDialog::COMFIRM_SHOW_RATTING)
 	{
+#if ANDROID_OS
+		_game->GetSpriteVer(SPRITEID_HUD_SHARE)->DrawFrame(_gp, 10, x, y);
+#else
 		_game->GetSpriteVer(SPRITEID_HUD_SHARE)->DrawFrame(_gp, 6, x, y);
+#endif
 
 		/*float scoreX = x + k_SCREEN_WIDTH / 2;
 		float scoreY = y + 705;

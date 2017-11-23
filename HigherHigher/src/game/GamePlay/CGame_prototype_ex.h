@@ -106,3 +106,4 @@ public:
 	void UpdateAds();
 
 	void ResetStateBannerAds();
+	bool isClosedInterstitialAd;

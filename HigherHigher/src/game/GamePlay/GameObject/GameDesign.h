@@ -310,8 +310,8 @@ public:
 
 			CSheetMultiplier()
 			{
-				int32Value._beginByte = 5674;
-				floatValue._beginByte = 5882;
+				int32Value._beginByte = 5627;
+				floatValue._beginByte = 5835;
 
 			};
 			enum enumInt32
@@ -323,6 +323,7 @@ public:
 			enum enumFloat
 			{
 				speed_title = 0,
+				speed_change = 1,
 
 			};
 

@@ -145,6 +145,10 @@ void HSGame::ResultUpdate()
 		//_quest.SetQuestComplete(_quest._level);
 		_sub_state = k_LOOP;
 		_quest.AddCurrentValue(CQuest::enumObjective::Objective_4, 1);
+#if ANDROID_OS
+		_quest.AddCurrentValue(CQuest::enumObjective::Objective_9, 1);
+		_quest.AddCurrentValue(CQuest::enumObjective::Objective_19, 1);
+#else
 		if (_user._typeCharacterUse == 3)
 		{
 			_quest.AddCurrentValue(CQuest::enumObjective::Objective_9, 1);
@@ -153,6 +157,9 @@ void HSGame::ResultUpdate()
 		{
 			_quest.AddCurrentValue(CQuest::enumObjective::Objective_19, 1);
 		}
+#endif 
+
+		
 		Pine_Date_Time localtime;
 		localtime.setDateByLocalDate();
 		int day_current = localtime.getDay();

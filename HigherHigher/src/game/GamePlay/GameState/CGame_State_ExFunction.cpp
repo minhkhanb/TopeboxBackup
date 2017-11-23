@@ -735,6 +735,7 @@ void HSGame::RenderPause(float x, float y)
 }
 bool HSGame::UpdatePause()
 {
+	HSGame* game = (HSGame*)(GAME()->_current_game);
 	if (_isPauseGame)
 	{
 		_timeResume--;
@@ -752,6 +753,10 @@ bool HSGame::UpdatePause()
 			}
 			if (_timeResume <= 15)
 			{
+				if (!GAME()->isClosedInterstitialAd)
+				{
+					return false;
+				}
 				_opaResume -= 7;
 				_posResumeX -= _speedResume;
 				_zoomResume -= 0.05;
@@ -848,6 +853,18 @@ bool HSGame::UpdatePause()
 			}
 			break;
 		}
+
+#if !defined (MAC_OS)
+		if (GAME()->_isBackkeyPress)
+		{
+			GAME()->isClosedInterstitialAd = false;
+			game->SetPause();
+			game->SetResume();
+			game->_volume = 0;
+			GAME()->_isBackkeyPress = false;
+			return true;
+		}
+#endif
 
 		return true;
 	}

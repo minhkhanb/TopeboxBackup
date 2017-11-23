@@ -21,6 +21,9 @@ void CQuest::SetCurrentValue(int lvl, int value)
 	case Objective_15:
 	case Objective_18:
 	case Objective_22:
+#if ANDROID_OS
+	case Objective_24:
+#endif
 		switch (lvl)
 		{
 		case Objective_1:
@@ -106,6 +109,7 @@ void CQuest::SetCurrentValue(int lvl, int value)
 			break;
 		}
 		break;
+#if !defined ANDROID_OS
 	case Objective_9:
 	case Objective_24:
 		switch (lvl)
@@ -128,6 +132,7 @@ void CQuest::SetCurrentValue(int lvl, int value)
 			break;
 		}
 		break;
+#endif
 	case Objective_12:
 		switch (lvl)
 		{
@@ -209,6 +214,9 @@ void CQuest::AddCurrentValue(int lvl, int value)
 		case Objective_15:
 		case Objective_18:
 		case Objective_22:
+#if ANDROID_OS
+		case Objective_24:
+#endif
 			level = lvl;
 			break;
 		default:
@@ -286,6 +294,7 @@ void CQuest::AddCurrentValue(int lvl, int value)
 			break;
 		}
 		break;
+#if !defined ANDROID_OS
 	case Objective_9:
 	case Objective_24:
 		switch (lvl)
@@ -308,6 +317,7 @@ void CQuest::AddCurrentValue(int lvl, int value)
 			break;
 		}
 		break;
+#endif
 	case Objective_12:
 		switch (lvl)
 		{
@@ -440,6 +450,9 @@ void CQuest::NewValueQuest()
 	case Objective_15:
 	case Objective_18:
 	case Objective_22:
+#if ANDROID_OS
+	case Objective_24:
+#endif
 		if (_currentValue != -1)
 		{
 			_currentValue = 0;
@@ -485,6 +498,7 @@ void CQuest::NewValueQuest()
 			_currentValue = 0;
 		}
 		break;
+#if !defined ANDROID_OS
 	case Objective_9:
 	case Objective_24:
 		if (_currentValue != -1)
@@ -498,6 +512,7 @@ void CQuest::NewValueQuest()
 			_currentValue = 0;
 		}
 		break;
+#endif
 	case Objective_12:
 
 		break;

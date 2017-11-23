@@ -692,6 +692,7 @@ bool HSGame::GamePlayUpdateTouch()
 #if !defined (MAC_OS)
 	if (GAME()->_isBackkeyPress)
 	{
+		GAME()->isClosedInterstitialAd = false;
 		game->SetPause();
 		game->SetResume();
 		game->_volume = 0;

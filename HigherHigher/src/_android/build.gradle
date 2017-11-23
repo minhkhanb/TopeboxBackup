@@ -201,14 +201,32 @@ android
 	}
 
 	android.applicationVariants.all { variant ->
-		variant.outputs.all {
+		variant.outputs.each { output ->
+			if (output.zipAlign) {
+				def fileName = "\\"  + project.GAME_NAME + "-" + variant.buildType.name
+				fileName += "-v" + project.GAME_VERSION_NAME + "." + project.GAME_VERSION_CODE
+				def file = output.outputFileName
+				if(file.find("unsigned")) 
+				{
+					fileName += "-unsigned";
+				}
+				fileName += ".apk"
+				output.outputFileName = new File(fileName)
+			}
+			
 			def fileName = "\\"  + project.GAME_NAME + "-" + variant.buildType.name
 			fileName += "-v" + project.GAME_VERSION_NAME + "." + project.GAME_VERSION_CODE
-			outputFileName = "${fileName}"
-			if(outputFileName.find("unsigned")) {
-				outputFileName += "-unsigned";
+			def file = output.outputFileName
+			if(file.find("unaligned")) 
+			{
+				fileName += "-unaligned";
 			}
-			outputFileName += ".apk"
+			if(file.find("unsigned")) 
+			{
+				fileName += "-unsigned";
+			}
+			fileName += ".apk"
+			output.outputFileName = new File(fileName)
 		}
 	}
 	
