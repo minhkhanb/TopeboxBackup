@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ImageTools.PCL</name>
+    </assembly>
+    <members>
+        <member name="T:System.ListExtension">
+            <summary>
+            Represents the class containing extensions for the List class.
+            </summary>
+        </member>
+        <member name="M:System.ListExtension.AsReadOnly``1(System.Collections.Generic.List{``0})">
+            <summary>
+            Returns a read-only IList wrapper for the current collection.
+            </summary>
+            <param name="Subject">The subject.</param>
+        </member>
+        <member name="T:System.Collections.ObjectModel.ObservableCollection`1">
+            <summary>
+            Represents a dynamic data collection that provides notifications when items get added, removed, or when the whole list is refreshed.
+            </summary>
+        </member>
+        <member name="T:System.IO.FileMode">
+            <summary>
+            Specifies how the operating system should open a file.
+            </summary>
+        </member>
+        <member name="F:System.IO.FileMode.Open">
+            <summary>
+            Specifies that the operating system should open an existing file. The ability to open the file is dependent on the value specified by FileAccess. A System.IO.FileNotFoundException is thrown if the file does not exist.
+            </summary>
+        </member>
+        <member name="T:System.IO.FileStream">
+            <summary>
+            When it is called by an elevated-trust application, exposes a Stream around a file, supporting both synchronous and asynchronous read and write operations.
+            </summary>
+        </member>
+        <member name="M:System.IO.FileStream.#ctor(System.String,System.IO.FileMode)">
+            <summary>
+            When it is called by trusted applications, initializes a new instance of the FileStream class with the specified path and creation mode.
+            </summary>
+            <param name="Path">A relative or absolute path for the file that the current FileStream object will encapsulate. </param>
+            <param name="Mode">A FileMode constant that determines how to open or create the file. </param>
+        </member>
+        <member name="M:System.IO.FileStream.Flush">
+            <summary>
+            When overridden in a derived class, clears all buffers for this stream and causes any buffered data to be written to the underlying device.
+            </summary>
+        </member>
+        <member name="M:System.IO.FileStream.Read(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            When overridden in a derived class, reads a sequence of bytes from the current stream and advances the position within the stream by the number of bytes read.
+            </summary>
+            <param name="Buffer">An array of bytes.</param>
+            <param name="Offset">The zero-based byte offset in buffer at which to begin storing the data read from the current stream.</param>
+            <param name="Count">The maximum number of bytes to be read from the current stream.</param>
+        </member>
+        <member name="M:System.IO.FileStream.Seek(System.Int64,System.IO.SeekOrigin)">
+            <summary>
+            When overridden in a derived class, sets the position within the current stream.
+            </summary>
+            <param name="Offset">A byte offset relative to the origin parameter.</param>
+            <param name="Origin">A value of type SeekOrigin indicating the reference point used to obtain the new position.</param>
+        </member>
+        <member name="M:System.IO.FileStream.SetLength(System.Int64)">
+            <summary>
+            When overridden in a derived class, sets the length of the current stream.
+            </summary>
+            <param name="Value">The desired length of the current stream in bytes.</param>
+        </member>
+        <member name="M:System.IO.FileStream.Write(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            When overridden in a derived class, writes a sequence of bytes to the current stream and advances the current position within this stream by the number of bytes written.
+            </summary>
+            <param name="Buffer">An array of bytes.</param>
+            <param name="Offset">The zero-based byte offset in buffer at which to begin copying bytes to the current stream.</param>
+            <param name="Count">The number of bytes to be written to the current stream.</param>
+        </member>
+        <member name="P:System.IO.FileStream.CanRead">
+            <summary>
+            When overridden in a derived class, gets a value indicating whether the current stream supports reading.
+            </summary>
+        </member>
+        <member name="P:System.IO.FileStream.CanSeek">
+            <summary>
+            When overridden in a derived class, gets a value indicating whether the current stream supports seeking.
+            </summary>
+        </member>
+        <member name="P:System.IO.FileStream.CanWrite">
+            <summary>
+            When overridden in a derived class, gets a value indicating whether the current stream supports writing.
+            </summary>
+        </member>
+        <member name="P:System.IO.FileStream.Length">
+            <summary>
+            When overridden in a derived class, gets the length in bytes of the stream.
+            </summary>
+        </member>
+        <member name="P:System.IO.FileStream.Position">
+            <summary>
+            When overridden in a derived class, gets or sets the position within the current stream.
+            </summary>
+        </member>
+        <member name="T:System.Net.UnhandledExceptionEventArgs">
+            <summary>
+            Provides data for the event that is raised when there is an exception that is not handled in any application domain.
+            </summary>
+        </member>
+        <member name="M:System.Net.UnhandledExceptionEventArgs.#ctor(System.Object,System.Boolean)">
+            <summary>
+            Initializes a new instance of the UnhandledExceptionEventArgs class with the exception object and a common language runtime termination flag.
+            </summary>
+            <param name="Exception">The exception that is not handled.</param>
+            <param name="IsTerminating">True if the runtime is terminating; otherwise, false.</param>
+        </member>
+        <member name="P:System.Net.UnhandledExceptionEventArgs.Exception">
+            <summary>
+            The exception that is not handled.
+            </summary>
+        </member>
+        <member name="T:System.Net.WebClient">
+            <summary>
+            Provides common methods for sending data to and receiving data from a resource identified by a URI.
+            </summary>
+        </member>
+        <member name="M:System.Net.WebClient.OpenReadAsync(System.Uri)">
+            <summary>
+            Opens a readable stream to the specified resource.
+            </summary>
+            <param name="Address">The location of the resource to be downloaded.</param>
+        </member>
+        <member name="E:System.Net.WebClient.DownloadProgressChanged">
+            <summary>
+            Occurs when an asynchronous download operation successfully transfers some or all of the data.
+            </summary>
+        </member>
+        <member name="E:System.Net.WebClient.OpenReadCompleted">
+            <summary>
+            Occurs when an asynchronous resource-read operation is completed.
+            </summary>
+        </member>
+        <member name="T:System.Reflection.AssemblyExtension">
+            <summary>
+            Represents the class containing extensions for the Assembly class.
+            </summary>
+        </member>
+        <member name="M:System.Reflection.AssemblyExtension.GetName(System.Reflection.Assembly)">
+            <summary>
+            Gets an AssemblyName for this assembly.
+            </summary>
+            <param name="Assembly">The assembly.</param>
+        </member>
+        <member name="T:System.Windows.Media.Color">
+            <summary>
+            Represents an ARGB (alpha, red, green, blue) color.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Media.Color.FromArgb(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Creates a new Color structure by using the specified sRGB alpha channel and color channel values.
+            </summary>
+            <param name="Alpha">The alpha channel, A, of the new color.</param>
+            <param name="Red">The red channel, R, of the new color.</param>
+            <param name="Green">The green channel, G, of the new color.</param>
+            <param name="Blue">The blue channel, B, of the new color.</param>
+        </member>
+        <member name="P:System.Windows.Media.Color.A">
+            <summary>
+            Gets or sets the sRGB alpha channel value of the color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Media.Color.B">
+            <summary>
+            Gets or sets the sRGB blue channel value of the color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Media.Color.G">
+            <summary>
+            Gets or sets the sRGB green channel value of the color.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Media.Color.R">
+            <summary>
+            Gets or sets the sRGB red channel value of the color.
+            </summary>
+        </member>
+        <member name="T:System.Net.DownloadProgressChangedEventArgs">
+            <summary>
+            Provides data for the DownloadProgressChanged event of a WebClient.
+            </summary>
+        </member>
+        <member name="T:System.Net.DownloadProgressChangedEventHandler">
+            <summary>
+            Represents the method that will handle the WebClient.DownloadProgressChanged event of a WebClient.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A DownloadProgressChangedEventArgs containing event data.</param>
+        </member>
+        <member name="T:System.Net.OpenReadCompletedEventHandler">
+            <summary>
+            Represents the method that will handle the OpenReadCompleted event of a WebClient.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">A OpenReadCompletedEventArgs containing event data.</param>
+        </member>
+        <member name="T:System.Net.OpenReadCompletedEventArgs">
+            <summary>
+            Provides data for the OpenReadCompleted event.
+            </summary>
+        </member>
+        <member name="P:System.Net.OpenReadCompletedEventArgs.Error">
+            <summary>
+            Gets a value that indicates which error occurred during an asynchronous operation.
+            </summary>
+        </member>
+        <member name="P:System.Net.OpenReadCompletedEventArgs.Result">
+            <summary>
+            Gets a readable stream that contains the results of the OpenReadAsync method.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Application">
+            <summary>
+            Encapsulates a Silverlight application.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Application.GetResourceStream(System.Uri)">
+            <summary>
+            Returns a resource file from a location in the application package.
+            </summary>
+            <param name="UriResource">A relative URI that identifies the resource file to be loaded. The URI is relative to the application package and does not need a leading forward slash. </param>
+        </member>
+        <member name="P:System.Windows.Application.Current">
+            <summary>
+            Gets the Application object for the current application.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Rect">
+            <summary>
+            Describes the width, height, and location of a rectangle.
+            </summary>
+        </member>
+        <member name="M:System.Windows.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Initializes a new instance of the Rect structure that has the specified x-coordinate, y-coordinate, width, and height.
+            </summary>
+            <param name="X">The x-coordinate of the top-left corner of the rectangle.</param>
+            <param name="Y">The y-coordinate of the top-left corner of the rectangle.</param>
+            <param name="Width">The width of the rectangle.</param>
+            <param name="Height">The height of the rectangle.</param>
+        </member>
+        <member name="F:System.Windows.Rect.Height">
+            <summary>
+            Gets or sets the height of the rectangle.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Rect.Width">
+            <summary>
+            Gets or sets the width of the rectangle.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Rect.X">
+            <summary>
+            Gets or sets the x-axis value of the left side of the rectangle.
+            </summary>
+        </member>
+        <member name="F:System.Windows.Rect.Y">
+            <summary>
+            Gets or sets the y-axis value of the top side of the rectangle.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Resources.StreamResourceInfo">
+            <summary>
+            Provides resource stream information for application resources or other packages obtained through the GetResourceStream method.
+            </summary>
+        </member>
+        <member name="P:System.Windows.Resources.StreamResourceInfo.Stream">
+            <summary>
+            Gets the stream that is contained by the resource.
+            </summary>
+        </member>
+        <member name="T:System.ApplicationException">
+            <summary>
+            The exception that is thrown when a non-fatal application error occurs.
+            </summary>
+        </member>
+        <member name="M:System.ApplicationException.#ctor">
+            <summary>
+            Initializes a new instance of the ApplicationException class.
+            </summary>
+        </member>
+        <member name="M:System.ApplicationException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the ApplicationException class with a specified error message.
+            </summary>
+            <param name="Message">A message describing the exception.</param>
+        </member>
+        <member name="M:System.ApplicationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the ApplicationException class with a specified error message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="Message">The error message that explains the reason for the exception.</param>
+            <param name="InnerException">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="T:System.Console">
+            <summary>
+            Represents the standard input, output, and error streams for console applications. This class cannot be inherited.
+            </summary>
+        </member>
+        <member name="M:System.Console.WriteLine(System.String)">
+            <summary>
+            Writes the specified string value, followed by the current line terminator, to the standard output stream.
+            </summary>
+            <param name="Value">The value to write.</param>
+        </member>
+        <member name="T:ImageTools.StringExtension">
+            <summary>
+            Represents the class containing extensions for the String class.
+            </summary>
+        </member>
+        <member name="M:ImageTools.StringExtension.ToUpper(System.String,System.Globalization.CultureInfo)">
+            <summary>
+            Returns a copy of this string converted to uppercase, using the casing rules of the specified culture.
+            </summary>
+            <param name="Subject">The subject.</param>
+            <param name="Culture">An object that supplies culture-specific casing rules.</param>
+        </member>
+    </members>
+</doc>

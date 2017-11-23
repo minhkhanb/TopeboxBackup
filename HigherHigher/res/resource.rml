@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManager>
+  <FileInfo Version="1.1" />
+  <GFX>
+    <SupportVersions>
+      <Version Name="750_1334" Width="750" Height="1334" MainVersion="1" />
+    </SupportVersions>
+    <Packages>
+      <Package Name="font" />
+      <Package Name="hud" />
+      <Package Name="object" />
+    </Packages>
+    <Items>
+      <Item Name="font_advert" />
+      <Item Name="pine_advert" />
+      <Item Name="font_sample" />
+      <Item Name="font_bestscore_01" />
+      <Item Name="font_score_01" />
+      <Item Name="font_level_01" />
+      <Item Name="font_title_01" />
+      <Item Name="font_mission_01" />
+      <Item Name="font_title_02" />
+      <Item Name="font_combo" />
+      <Item Name="font_share" />
+      <Item Name="hud_01" />
+      <Item Name="hud_02" />
+      <Item Name="hud_result" />
+      <Item Name="hud_setting" />
+      <Item Name="hud_share" />
+      <Item Name="hud_tut_01" />
+      <Item Name="hud_loadingscreen" />
+      <Item Name="object_01" />
+      <Item Name="object_02" />
+      <Item Name="object_circle_01" />
+      <Item Name="object_03" />
+      <Item Name="object_highscore" />
+      <Item Name="object_sharehighscore" />
+      <Item Name="object_character_01" />
+      <Item Name="object_character_02" />
+      <Item Name="object_character_03" />
+      <Item Name="object_character_04" />
+      <Item Name="object_character_05" />
+      <Item Name="object_character_06" />
+      <Item Name="object_character_07" />
+      <Item Name="object_character_08" />
+      <Item Name="object_character_09" />
+      <Item Name="object_character_10" />
+      <Item Name="hub_android" />
+    </Items>
+    <VersionItems>
+      <VersionItem Version="750_1334">
+        <Item Item="font_sample" Path="font_sample_i6.bpine" Package="font" />
+        <Item Item="object_character_01" Path="object_character_01_i6.bpine" Package="object" />
+        <Item Item="font_score_01" Path="font_score_01_i6.bpine" Package="font" />
+        <Item Item="font_bestscore_01" Path="font_bestscore_01_i6.bpine" Package="font" />
+        <Item Item="font_advert" Path="font_advert.bpine" Package="font" />
+        <Item Item="pine_advert" Path="pine_advert.bpine" Package="font" />
+        <Item Item="object_01" Path="object_01_i6.bpine" Package="object" />
+        <Item Item="object_02" Path="object_02_i6.bpine" Package="object" />
+        <Item Item="hud_01" Path="hud_01_i6.bpine" Package="hud" />
+        <Item Item="hud_02" Path="hud_02_i6.bpine" Package="hud" />
+        <Item Item="object_circle_01" Path="object_circle_01_i6.bpine" Package="object" />
+        <Item Item="object_03" Path="object_03_i6.bpine" Package="object" />
+        <Item Item="hud_result" Path="hud_result_i6.bpine" Package="hud" />
+        <Item Item="font_level_01" Path="font_level_01_i6.bpine" Package="font" />
+        <Item Item="font_title_01" Path="font_title_01_i6.bpine" Package="font" />
+        <Item Item="font_mission_01" Path="font_mission_01_i6.bpine" Package="font" />
+        <Item Item="font_title_02" Path="font_title_02_i6.bpine" Package="font" />
+        <Item Item="hud_setting" Path="hud_setting_i6.bpine" Package="hud" />
+        <Item Item="font_combo" Path="font_combo_i6.bpine" Package="font" />
+        <Item Item="object_highscore" Path="object_highscore_i6.bpine" Package="object" />
+        <Item Item="hud_share" Path="hud_share_i6.bpine" Package="hud" />
+        <Item Item="font_share" Path="font_share_i6.bpine" Package="font" />
+        <Item Item="object_sharehighscore" Path="object_sharehighscore_i6.bpine" Package="object" />
+        <Item Item="object_character_02" Path="object_character_02_i6.bpine" Package="object" />
+        <Item Item="object_character_03" Path="object_character_03_i6.bpine" Package="object" />
+        <Item Item="object_character_04" Path="object_character_04_i6.bpine" Package="object" />
+        <Item Item="object_character_05" Path="object_character_05_i6.bpine" Package="object" />
+        <Item Item="object_character_06" Path="object_character_06_i6.bpine" Package="object" />
+        <Item Item="object_character_07" Path="object_character_07_i6.bpine" Package="object" />
+        <Item Item="object_character_08" Path="object_character_08_i6.bpine" Package="object" />
+        <Item Item="object_character_09" Path="object_character_09_i6.bpine" Package="object" />
+        <Item Item="object_character_10" Path="object_character_10_i6.bpine" Package="object" />
+        <Item Item="hud_tut_01" Path="hud_tut_01_i6.bpine" Package="hud" />
+        <Item Item="hud_loadingscreen" Path="hud_loadingscreen_i6.bpine" Package="hud" />
+        <Item Item="hub_android" Path="hud_android_i6.bpine" Package="hud" />
+      </VersionItem>
+    </VersionItems>
+  </GFX>
+  <Sounds>
+    <Sound Name="bgm_allgame" Path="bgm_allgame.mp3" />
+    <Sound Name="bgm_ingame" Path="bgm_ingame.mp3" />
+    <Sound Name="sfx_combo_01" Path="sfx_combo_01.wav" />
+    <Sound Name="sfx_combo_02" Path="sfx_combo_02.wav" />
+    <Sound Name="sfx_combo_03" Path="sfx_combo_03.wav" />
+    <Sound Name="sfx_combo_04" Path="sfx_combo_04.wav" />
+    <Sound Name="sfx_combo_05" Path="sfx_combo_05.wav" />
+    <Sound Name="sfx_combo_06" Path="sfx_combo_06.wav" />
+    <Sound Name="sfx_combo_07" Path="sfx_combo_07.wav" />
+    <Sound Name="sfx_combo_08" Path="sfx_combo_08.wav" />
+    <Sound Name="sfx_combo_09" Path="sfx_combo_09.wav" />
+    <Sound Name="sfx_combo_10" Path="sfx_combo_10.wav" />
+    <Sound Name="sfx_combo_11" Path="sfx_combo_11.wav" />
+    <Sound Name="sfx_combo_12" Path="sfx_combo_12.wav" />
+    <Sound Name="sfx_combo_13" Path="sfx_combo_13.wav" />
+    <Sound Name="sfx_combo_14" Path="sfx_combo_14.wav" />
+    <Sound Name="sfx_combo_15" Path="sfx_combo_15.wav" />
+    <Sound Name="sfx_combo_16" Path="sfx_combo_16.wav" />
+    <Sound Name="sfx_combo_17" Path="sfx_combo_17.wav" />
+    <Sound Name="sfx_combo" Path="sfx_combo.wav" />
+    <Sound Name="sfx_fireworks1" Path="sfx_fireworks1.wav" />
+    <Sound Name="sfx_fireworks2" Path="sfx_fireworks2.wav" />
+    <Sound Name="sfx_fireworks3" Path="sfx_fireworks3.wav" />
+    <Sound Name="sfx_button" Path="sfx_button.wav" />
+    <Sound Name="sfx_couting" Path="sfx_couting.wav" />
+    <Sound Name="sfx_cube_bounce" Path="sfx_cube_bounce.wav" />
+    <Sound Name="sfx_cube_die" Path="sfx_cube_die.wav" />
+    <Sound Name="sfx_gameover" Path="sfx_gameover.wav" />
+    <Sound Name="sfx_level_up" Path="sfx_level_up.wav" />
+    <Sound Name="sfx_multiplier_score_up" Path="sfx_multiplier_score_up.wav" />
+    <Sound Name="sfx_objective_complete" Path="sfx_objective_complete.wav" />
+    <Sound Name="sfx_powerup_collected" Path="sfx_powerup_collected.wav" />
+    <Sound Name="sfx_share" Path="sfx_share.wav" />
+    <Sound Name="sfx_wrong_tap" Path="sfx_wrong_tap.wav" />
+    <Sound Name="sfx_highscore" Path="sfx_highscore.wav" />
+    <Sound Name="sfx_popup" Path="sfx_popup.wav" />
+  </Sounds>
+  <ProjectSettings>
+    <ResourceManifestHeader><![CDATA[./../src/game/Define]]></ResourceManifestHeader>
+    <ResourceManifestCPP><![CDATA[./../src/game/GamePlay]]></ResourceManifestCPP>
+  </ProjectSettings>
+  <Targets>
+    <Target Name="Simulator" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/res]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+    <Target Name="IOS" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/Res_IOS]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+    <Target Name="Android" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/Res_ANDROID]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+  </Targets>
+</ResourceManager>

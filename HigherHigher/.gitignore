@@ -1,0 +1,11 @@
+_tmpres/
+src/_android/build/
+src/_win/Debug/
+src/_win/.vs/
+src/_android/obj/
+src/_android/.gradle/
+src/_android/.idea/compiler.xml
+src/_android/.idea/
+src/_android/libs/armeabi/
+src/_android/assets/
+bin/_win/

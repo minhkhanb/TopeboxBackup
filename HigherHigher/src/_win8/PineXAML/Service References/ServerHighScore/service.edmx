@@ -1,0 +1,122 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="PineHighScore.DataTransferObjects" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+      <EntityType Name="HighScoreDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Guid" Nullable="false" />
+        <Property Name="UserId" Type="Edm.Int64" Nullable="false" />
+        <Property Name="GameId" Type="Edm.Int64" Nullable="false" />
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="AvatarUrl" Type="Edm.String" />
+        <Property Name="Token" Type="Edm.String" />
+        <Property Name="Currency01" Type="Edm.Int64" />
+        <Property Name="Currency02" Type="Edm.Int64" />
+        <Property Name="Currency03" Type="Edm.Int64" />
+        <Property Name="ArchivementCount01" Type="Edm.Int32" />
+        <Property Name="ArchivementCount02" Type="Edm.Int32" />
+        <Property Name="ArchivementCount03" Type="Edm.Int32" />
+        <Property Name="ArchivementCount04" Type="Edm.Int32" />
+        <Property Name="ArchivementCount05" Type="Edm.Int32" />
+        <Property Name="HighScore01" Type="Edm.Double" />
+        <Property Name="HighScore02" Type="Edm.Double" />
+        <Property Name="HighScore03" Type="Edm.Double" />
+        <Property Name="HighScore04" Type="Edm.Double" />
+        <Property Name="HighScore05" Type="Edm.Double" />
+        <Property Name="HighScore06" Type="Edm.Double" />
+        <Property Name="HighScore07" Type="Edm.Double" />
+        <Property Name="HighScore08" Type="Edm.Double" />
+        <Property Name="HighScore09" Type="Edm.Double" />
+        <Property Name="HighScore10" Type="Edm.Double" />
+        <Property Name="DailyHighScore01" Type="Edm.Double" />
+        <Property Name="DailyHighScore02" Type="Edm.Double" />
+        <Property Name="DailyHighScore03" Type="Edm.Double" />
+        <Property Name="DailyHighScore04" Type="Edm.Double" />
+        <Property Name="DailyHighScore05" Type="Edm.Double" />
+        <Property Name="DailyHighScore06" Type="Edm.Double" />
+        <Property Name="DailyHighScore07" Type="Edm.Double" />
+        <Property Name="DailyHighScore08" Type="Edm.Double" />
+        <Property Name="DailyHighScore09" Type="Edm.Double" />
+        <Property Name="DailyHighScore10" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore01" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore02" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore03" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore04" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore05" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore06" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore07" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore08" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore09" Type="Edm.Double" />
+        <Property Name="WeeklyHighScore10" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore01" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore02" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore03" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore04" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore05" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore06" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore07" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore08" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore09" Type="Edm.Double" />
+        <Property Name="LastDailyHighScore10" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore01" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore02" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore03" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore04" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore05" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore06" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore07" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore08" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore09" Type="Edm.Double" />
+        <Property Name="LastWeeklyHighScore10" Type="Edm.Double" />
+      </EntityType>
+      <EntityType Name="SentRequestDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="GameId" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Sender" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Receiver" Type="Edm.Int64" Nullable="false" />
+        <Property Name="RequestType" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+      <EntityType Name="RankedHighScoreDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Guid" Nullable="false" />
+        <Property Name="Rank" Type="Edm.Int32" Nullable="false" />
+        <Property Name="UserId" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Score" Type="Edm.Double" />
+        <Property Name="TopScore" Type="Edm.Double" />
+      </EntityType>
+      <EntityType Name="TopScoreDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Guid" Nullable="false" />
+        <Property Name="UserId" Type="Edm.Int64" Nullable="false" />
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="AvatarUrl" Type="Edm.String" />
+        <Property Name="Score" Type="Edm.Double" />
+      </EntityType>
+      <EntityType Name="StatisticDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.String" Nullable="false" />
+        <Property Name="TotalUsers" Type="Edm.Int32" Nullable="false" />
+        <Property Name="ActiveUsers" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+    </Schema>
+    <Schema Namespace="PineHighScore.Services.OData" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+      <EntityContainer Name="PineHighScoreContext" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="HighScores" EntityType="PineHighScore.DataTransferObjects.HighScoreDto" />
+        <EntitySet Name="MyRequests" EntityType="PineHighScore.DataTransferObjects.SentRequestDto" />
+        <EntitySet Name="RankedScores" EntityType="PineHighScore.DataTransferObjects.RankedHighScoreDto" />
+        <EntitySet Name="TopScores" EntityType="PineHighScore.DataTransferObjects.TopScoreDto" />
+        <EntitySet Name="Statistics" EntityType="PineHighScore.DataTransferObjects.StatisticDto" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

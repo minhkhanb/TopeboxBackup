@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GamePlay">
+      <UniqueIdentifier>{d73cb59a-5ef7-4fcf-80d9-41a77556818b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GamePlay\GameState">
+      <UniqueIdentifier>{5e84c866-f4b9-4ce6-8604-9489c632cc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GamePlay\Object">
+      <UniqueIdentifier>{319c5f9e-5c7b-40c1-ae3e-a85cb27cc555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{309e33f6-c2fb-4d88-a3fc-accc556e4e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\DataInputStream">
+      <UniqueIdentifier>{ee10da48-1efa-4a87-b7cd-9499333d3041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameCore">
+      <UniqueIdentifier>{8bbcbcf6-80bf-4a42-80f8-5bae459869ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulator">
+      <UniqueIdentifier>{cc5eb75b-4d6c-418c-a1d0-ac517c5676dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineDefines">
+      <UniqueIdentifier>{e3395857-548d-430f-9f43-5366576db834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\Sound">
+      <UniqueIdentifier>{f5cea8dc-7e8f-45f0-bd3c-2ab12d63c050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\Graphic">
+      <UniqueIdentifier>{6dffba58-d636-4606-b59b-9931813a77f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\DataType">
+      <UniqueIdentifier>{bb1d412d-3d45-464f-be94-659c489d9921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\Math">
+      <UniqueIdentifier>{e4fb7d08-85b3-46f3-9b04-8ecf5d7ecdc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\HUD">
+      <UniqueIdentifier>{3138ed2c-140d-4957-85b8-90efcc8d2368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\MapDesigner">
+      <UniqueIdentifier>{b9d18e75-e060-4bc1-b335-a9d02a4032b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\Sprite">
+      <UniqueIdentifier>{fc1ca7c3-37ac-4af1-a8ba-7c4039d9932c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GamePlay\MainGame">
+      <UniqueIdentifier>{6cc71030-74e3-4388-8d9f-3a3a21a16af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib\FreeType">
+      <UniqueIdentifier>{4a5618e8-3dec-4fd4-87cc-e47bc986e34b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\game\GamePlay\CGame_State.cpp">
+      <Filter>Source Files\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameState\CGame_State_Logo.cpp">
+      <Filter>Source Files\GamePlay\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\MenuSystem.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\SpriteList.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\ArrayList\ArrayList.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\png\lodepng.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\PineImage.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\DataInputStream\DataInputStream.cpp">
+      <Filter>Source Files\Lib\DataInputStream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\PineHighScore.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\CGame_Core.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\CAnimObject.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\CTouch.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="src\iPhoneGame.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Thread.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Os_Functions.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Os_Functions_NotSupported.cpp">
+      <Filter>Source Files\Simulator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\Game_ExternFunctions.cpp">
+      <Filter>Source Files\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\PineADVERT.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CScrollBar.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Sound\SoundEngine.cpp">
+      <Filter>Source Files\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Sound\BassLib.cpp">
+      <Filter>Source Files\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\OpenGLES\GLESLib1.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\OpenGLES\Graphic.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\Device.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Math\CMath.cpp">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\GameContext.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Math\PinePolygon.cpp">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\DataType\BufferStream.cpp">
+      <Filter>Source Files\Lib\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\DataType\ServiceStream.cpp">
+      <Filter>Source Files\Lib\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\Object.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\RenderObject.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\Animation.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\HUD\ButtonAnimation.cpp">
+      <Filter>Source Files\Lib\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\MapDesigner\MapDesigner.cpp">
+      <Filter>Source Files\Lib\MapDesigner</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\GameFlatform.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Math\PineMatrix4.cpp">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Graphic\GraphicUtil.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Graphic\PineCanvas.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Graphic\PineColor.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Graphic\PineColorPalette.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Graphic\PineTexture.cpp">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Sprite\PineSprite.cpp">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Sprite\PineSpriteFModule.cpp">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Sprite\CSprite.cpp">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\GameRect.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\MainGame\HSGame.cpp">
+      <Filter>Source Files\GamePlay\MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GameCore\PineGame.cpp">
+      <Filter>Source Files\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\FreeType\PineFreeType.cpp">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\FreeType\PineFreeTypeCanvas.cpp">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\FreeType\PineFreeTypeChar.cpp">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\FreeType\PineFreeTypePen.cpp">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\FreeType\PineFreeTypeText.cpp">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\FreeType\PineFreeTypeTextChar.cpp">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameState\CGame_State_GamePlay.cpp">
+      <Filter>Source Files\GamePlay\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CCharacter.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\GameDesign.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameState\CGame_State_Read_Design.cpp">
+      <Filter>Source Files\GamePlay\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CEffectTail.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CObjectEnvir.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameState\CGame_State_ExFunction.cpp">
+      <Filter>Source Files\GamePlay\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CLine.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CFood.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CUser.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameState\CGame_State_Result.cpp">
+      <Filter>Source Files\GamePlay\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CQuest.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\Pine_Date_Time.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CDialog.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\Math\PineVector3.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\Lib\PineStore.cpp">
+      <Filter>Source Files\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\CAsyncTasks.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\game\GamePlay\GameObject\Topebox_PromoGame.cpp">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\game\GamePlay\GameObject\MenuSystem.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\ArrayList\ArrayList.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\png\lodepng.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\PineImage.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\DataInputStream\DataInputStream.h">
+      <Filter>Source Files\Lib\DataInputStream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\Define_Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\Define_Misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\Define_Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\SpriteList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\ReadFile\ReadFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\PineHighScore.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\CGame.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\CAnimObject.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\CTouch.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\CGame_include_ex.h">
+      <Filter>Source Files\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\CGame_prototype_ex.h">
+      <Filter>Source Files\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iPhoneGame.h">
+      <Filter>Source Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Thread.h">
+      <Filter>Source Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\Os_Functions.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\Game_ExternFunctions.h">
+      <Filter>Source Files\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\Define_TypeAndMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\bass.h">
+      <Filter>Source Files\Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\CType.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\EngineDefines\EngineDefines.h">
+      <Filter>Header Files\EngineDefines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\PineADVERT.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CScrollBar.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Define\Define_Simulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sound\SoundEngine.h">
+      <Filter>Source Files\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sound\BassLib.h">
+      <Filter>Source Files\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\OpenGLES\GLESLib1.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\OpenGLES\Graphic.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\DataType\CType.h">
+      <Filter>Source Files\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Math\CMath.h">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\GameContext.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Math\PinePolygon.h">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\DataType\BufferStream.h">
+      <Filter>Source Files\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\DataType\ServiceStream.h">
+      <Filter>Source Files\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\Object.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\RenderObject.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\Animation.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\HUD\ButtonAnimation.h">
+      <Filter>Source Files\Lib\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\MapDesigner\MapDesigner.h">
+      <Filter>Source Files\Lib\MapDesigner</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\GameFlatform.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Math\PineBigNumber.h">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Math\PineMatrix4.h">
+      <Filter>Source Files\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Graphic\GraphicUtil.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Graphic\PineCanvas.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Graphic\PineCanvasResource.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Graphic\PineColor.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Graphic\PineColorPalette.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Graphic\PineTexture.h">
+      <Filter>Source Files\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSprite.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteAFrame.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteAnim.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteFModule.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteFrame.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteModule.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteTexture.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\PineSpriteTextureData.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Sprite\CSprite.h">
+      <Filter>Source Files\Lib\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\GameRect.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\MainGame\HSGame.h">
+      <Filter>Source Files\GamePlay\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\MainGame\HSGame_Define_Const.h">
+      <Filter>Source Files\GamePlay\MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GameCore\PineGame.h">
+      <Filter>Source Files\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\FreeType\PineFreeType.h">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\FreeType\PineFreeTypeCanvas.h">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\FreeType\PineFreeTypeChar.h">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\FreeType\PineFreeTypePen.h">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\FreeType\PineFreeTypeText.h">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\FreeType\PineFreeTypeTextChar.h">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\GameDesign.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CEffectTail.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CObjectEnvir.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CLine.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CFood.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CUser.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CQuest.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\Pine_Date_Time.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CDialog.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\Math\PineVector3.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\Lib\PineStore.h">
+      <Filter>Source Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\CAsyncTasks.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\game\GamePlay\GameObject\Topebox_PromoGame.h">
+      <Filter>Source Files\GamePlay\Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iPhoneGame.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="iPhoneGame.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\game\Lib\FreeType\freetype26.lib">
+      <Filter>Source Files\Lib\FreeType</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

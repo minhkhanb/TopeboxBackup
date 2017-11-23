@@ -1,0 +1,3 @@
+[submodule "src/game/Lib/PineEngine"]
+	path = src/game/Lib/PineEngine
+	url = http://git.pine.local/PineEngine/PineEngineBuild.git

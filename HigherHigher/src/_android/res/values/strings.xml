@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Higher Higher!</string>
+    <string name="app_id">109624411098</string>
+	<!--FACEBOOK-->
+	<bool name="use_facebook">false</bool>
+    <string name="facebook_app_id">1866335136984622</string>
+	<string name="fb_login_protocol_scheme"></string>
+	
+	<bool name="use_admob">true</bool>
+	<string name="admob_application_id">ca-app-pub-6305464951596521~2469641168</string>
+	<bool name="use_admob_interstitial">true</bool>
+	<string name="ad_interstitial_unit_id">ca-app-pub-6305464951596521/4686764484</string>
+	<bool name="use_admob_banner">true</bool>
+	<string name="banner_ad_unit_id">ca-app-pub-6305464951596521/8460334443</string>
+	<bool name="use_admob_rewarded_video">false</bool>
+    <string name="rewarded_video_ad_unit_id">ca-app-pub-6305464951596521/4547906606</string>
+
+				
+	<!--CHARTBOOST-->
+	<bool name="use_chartboost">false</bool>
+	<string name="cb_app_id">null</string>
+	<string name="cb_app_sign">null</string>
+	
+	<!--UNITY3DADS-->
+	<bool name="use_unityads">false</bool>
+	<string name="unityads_id">1412367</string>
+	
+	<!--VUNGLEADS-->
+	<bool name="use_vungleads">false</bool>
+	<string name="vungleads_id">59141a87034d892f32000017</string>
+	<string name="vungle_admob_mediation_placement_id_1">DEFAULT19767</string>
+	<string name="vungle_admob_mediation_placement_id_2">DEFAULT19767</string>
+	
+	<!--GOOGLE PLAY SERVICE-->
+	<string name="google_play_app_id">109624411098</string>
+	<bool name="use_google_game_service">true</bool>
+	<bool name="use_google_drive">true</bool>
+	<bool name="use_google_plus">false</bool>
+	<bool name="use_google_friend">false</bool>
+	<bool name="use_google_send_gift">false</bool>
+
+	<bool name="use_firebase_analytic">false</bool>
+	<bool name="use_firebase_remote_config">false</bool>
+
+	<bool name="use_local_notification">false</bool>
+
+	<bool name="use_game_spark_services">false</bool>
+	<string name="game_spark_api_key">W305700GLqKl</string>
+	<string name="game_spark_api_secret">UEC0fiG9oBiCa7Clk43UnSnP3pD2YU8T</string>
+</resources>

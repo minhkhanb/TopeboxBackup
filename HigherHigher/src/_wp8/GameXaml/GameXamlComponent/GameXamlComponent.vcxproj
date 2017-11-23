@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1334ae6e-b1ba-4604-a202-1f8b3b3582aa}</ProjectGuid>
+    <RootNamespace>PhoneDirect3DXamlAppComponent</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <WinMDAssembly>true</WinMDAssembly>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup>
+    <!-- If OutDir was set outside of the project file, then we will append ProjectName -->
+    <OutDir Condition="'$(OutDirWasSpecified)' == 'true'">$(OutDir)\$(MSBuildProjectName)\</OutDir>
+    <!-- else, OutDir needs to have project specific directory in order to handle files with unique names -->
+    <OutDir Condition="'$(OutDirWasSpecified)' != 'true' and '$(Platform)' == 'Win32'">$(SolutionDir)$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <OutDir Condition="'$(OutDirWasSpecified)' != 'true' and '$(Platform)' != 'Win32'">$(SolutionDir)$(Platform)\$(Configuration)\$(MSBuildProjectName)\</OutDir>
+    <!-- After OutDir has been fixed, disable Microsoft.common.targets from fixing it again -->
+    <OutDirWasSpecified>false</OutDirWasSpecified>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINDOWS_PHONE8;_WINDOWS_PHONE8_XAML;_WINRT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <AdditionalIncludeDirectories>../../../../game;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>d3d11.lib;msxml6.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINDOWS_PHONE8;_WINDOWS_PHONE8_XAML;_WINRT_DLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <AdditionalIncludeDirectories>../../../../game;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>d3d11.lib;msxml6.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINDOWS_PHONE8;_WINDOWS_PHONE8_XAML;_WINRT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <AdditionalIncludeDirectories>../../../game;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>d3d11.lib;msxml6.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_WINDOWS_PHONE8;_WINDOWS_PHONE8_XAML;_WINRT_DLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <CompileAsWinRT>true</CompileAsWinRT>
+      <AdditionalIncludeDirectories>../../../game;$(ProjectDir);$(GeneratedFilesDir);$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>d3d11.lib;msxml6.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="platform.winmd">
+      <IsWinMDFile>true</IsWinMDFile>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\game\Define\Defines.h" />
+    <ClInclude Include="..\..\..\game\Define\Define_Const.h" />
+    <ClInclude Include="..\..\..\game\Define\Define_Misc.h" />
+    <ClInclude Include="..\..\..\game\Define\Define_Platform.h" />
+    <ClInclude Include="..\..\..\game\Define\Define_Screen.h" />
+    <ClInclude Include="..\..\..\game\Define\Define_Simulator.h" />
+    <ClInclude Include="..\..\..\game\Define\Define_TypeAndMacro.h" />
+    <ClInclude Include="..\..\..\game\GameCore\CAnimObject.h" />
+    <ClInclude Include="..\..\..\game\GameCore\CGame.h" />
+    <ClInclude Include="..\..\..\game\GameCore\CTouch.h" />
+    <ClInclude Include="..\..\..\game\GameCore\CType.h" />
+    <ClInclude Include="..\..\..\game\GameCore\Device.h" />
+    <ClInclude Include="..\..\..\game\GameCore\GameContext.h" />
+    <ClInclude Include="..\..\..\game\GameCore\Os_Functions.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\CGame_include_ex.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\CGame_prototype_ex.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\GameObject\CScrollBar.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\GameObject\MenuSystem.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\GameObject\SpriteList.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\Game_ExternFunctions.h" />
+    <ClInclude Include="..\..\..\game\Lib\DataInputStream\DataInputStream.h" />
+    <ClInclude Include="..\..\..\game\Lib\DataType\BufferStream.h" />
+    <ClInclude Include="..\..\..\game\Lib\DataType\CByteBuffer.h" />
+    <ClInclude Include="..\..\..\game\Lib\DataType\CType.h" />
+    <ClInclude Include="..\..\..\game\Lib\DataType\ServiceStream.h" />
+    <ClInclude Include="..\..\..\game\Lib\lzma\huffman.h" />
+    <ClInclude Include="..\..\..\game\Lib\Math\CMath.h" />
+    <ClInclude Include="..\..\..\game\Lib\Math\PinePolygon.h" />
+    <ClInclude Include="..\..\..\game\Lib\Math\SMatrix4x4.h" />
+    <ClInclude Include="..\..\..\game\Lib\OpenGLES\DirectX11.h" />
+    <ClInclude Include="..\..\..\game\Lib\OpenGLES\Graphic.h" />
+    <ClInclude Include="..\..\..\game\Lib\PineADVERT.h" />
+    <ClInclude Include="..\..\..\game\Lib\PineImage.h" />
+    <ClInclude Include="..\..\..\game\Lib\png\png.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sound\SoundEngine.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\MediaEnginePlayer.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\RandomAccessReader.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\SoundFileReader.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\XAudio2SoundPlayer.h" />
+    <ClInclude Include="..\..\..\game\Lib\Sprite\CSprite.h" />
+    <ClInclude Include="..\SourceCPP\ApplicationInfomation.h" />
+    <ClInclude Include="..\SourceCPP\BasicTimer.h" />
+    <ClInclude Include="..\SourceCPP\Connector.h" />
+    <ClInclude Include="..\SourceCPP\DeviceInfomation.h" />
+    <ClInclude Include="..\SourceCPP\Direct3DBase.h" />
+    <ClInclude Include="..\SourceCPP\Direct3DContentProvider.h" />
+    <ClInclude Include="..\SourceCPP\DirectXHelper.h" />
+    <ClInclude Include="..\SourceCPP\Environment.h" />
+    <ClInclude Include="..\SourceCPP\GameDataService.h" />
+    <ClInclude Include="..\SourceCPP\GameXamlComponent.h" />
+    <ClInclude Include="..\SourceCPP\PineRenderer.h" />
+    <ClInclude Include="..\SourceCPP\PlayerInfomation.h" />
+    <ClInclude Include="..\SourceCPP\ServerStream\ServerStream.h" />
+    <ClInclude Include="..\SourceCPP\ServerStream\ServerStreamManager.h" />
+    <ClInclude Include="..\SourceCPP\StreamBuffer.h" />
+    <ClInclude Include="..\SourceCPP\Utils.h" />
+    <ClInclude Include="..\SourceCPP\WP8_Connector.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\game\GameCore\CAnimObject.cpp" />
+    <ClCompile Include="..\..\..\game\GameCore\CGame_Core.cpp" />
+    <ClCompile Include="..\..\..\game\GameCore\CTouch.cpp" />
+    <ClCompile Include="..\..\..\game\GameCore\Device.cpp" />
+    <ClCompile Include="..\..\..\game\GameCore\GameContext.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\CGame_State.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\GameObject\CScrollBar.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\GameObject\MenuSystem.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\GameObject\SpriteList.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\GameState\CGame_State_Logo.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\Game_ExternFunctions.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\WP8_Connector.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\DataInputStream\DataInputStream.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\DataType\BufferStream.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\DataType\CByteBuffer.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\DataType\ServiceStream.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\lzma\huffman.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Math\CMath.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Math\PinePolygon.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Math\SMatrix4x4.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\OpenGLES\DirectX11.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\OpenGLES\Graphic.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\PineADVERT.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\PineImage.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\png\png.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sound\SoundEngine.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\MediaEnginePlayer.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\RandomAccessReader.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\SoundFileReader.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\XAudio2SoundPlayer.cpp" />
+    <ClCompile Include="..\..\..\game\Lib\Sprite\CSprite.cpp" />
+    <ClCompile Include="..\GameCode\WP8_GameExternFunctions_NotSupported.cpp" />
+    <ClCompile Include="..\GameCode\WP8_Game_ExternFunctions.cpp" />
+    <ClCompile Include="..\SourceCPP\ApplicationInfomation.cpp" />
+    <ClCompile Include="..\SourceCPP\DeviceInfomation.cpp" />
+    <ClCompile Include="..\SourceCPP\Direct3DBase.cpp" />
+    <ClCompile Include="..\SourceCPP\Direct3DContentProvider.cpp" />
+    <ClCompile Include="..\SourceCPP\Environment.cpp" />
+    <ClCompile Include="..\SourceCPP\GameDataService.cpp" />
+    <ClCompile Include="..\SourceCPP\GameXamlComponent.cpp" />
+    <ClCompile Include="..\SourceCPP\Os_Functions.cpp" />
+    <ClCompile Include="..\SourceCPP\Os_Functions_Facebook.cpp" />
+    <ClCompile Include="..\SourceCPP\OS_Functions_InApp.cpp" />
+    <ClCompile Include="..\SourceCPP\OS_Functions_NotSupported.cpp" />
+    <ClCompile Include="..\SourceCPP\Os_Functions_Twitter.cpp" />
+    <ClCompile Include="..\SourceCPP\PineRenderer.cpp" />
+    <ClCompile Include="..\SourceCPP\PlayerInfomation.cpp" />
+    <ClCompile Include="..\SourceCPP\ServerStream\ServerStreamManager.cpp" />
+    <ClCompile Include="..\SourceCPP\StreamBuffer.cpp" />
+    <ClCompile Include="..\SourceCPP\Utils.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\SourceCPP\SimplePixelShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile Include="..\SourceCPP\SimpleVertexShader.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Vertex</ShaderType>
+    </FxCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsPhone\v$(TargetPlatformVersion)\Microsoft.Cpp.WindowsPhone.$(TargetPlatformVersion).targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,134 @@
+﻿<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <edmx:DataServices m:DataServiceVersion="1.0" m:MaxDataServiceVersion="3.0" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="PocketAvenger.DataTransferObjects" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+      <EntityType Name="SaveGameDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="FacebookId" Type="Edm.Int64" />
+        <Property Name="AvatarUrl" Type="Edm.String" />
+        <Property Name="Token" Type="Edm.String" />
+        <Property Name="LevelMain" Type="Edm.Int16" Nullable="false" />
+        <Property Name="LevelCurrentWorld" Type="Edm.Int16" Nullable="false" />
+        <Property Name="ChooseCharater" Type="Edm.Int32" Nullable="false" />
+        <Property Name="NationCode" Type="Edm.String" />
+        <Property Name="ChampionScore" Type="Edm.Int32" Nullable="false" />
+        <Property Name="LastChampionScore" Type="Edm.Int32" Nullable="false" />
+        <Property Name="RunHighScore" Type="Edm.Int64" Nullable="false" />
+        <Property Name="LastRunHighScore" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Revision" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Data" Type="Edm.Binary" />
+        <Property Name="DataSchemaVersion" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Rank" Type="Edm.Int32" Nullable="false" />
+        <Property Name="LastRank" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+      <EntityType Name="UserDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="FacebookId" Type="Edm.Int64" />
+        <Property Name="AvatarUrl" Type="Edm.String" />
+        <Property Name="LevelMain" Type="Edm.Int16" Nullable="false" />
+        <Property Name="LevelCurrentWorld" Type="Edm.Int16" Nullable="false" />
+        <Property Name="ChooseCharater" Type="Edm.Int32" Nullable="false" />
+        <Property Name="NationCode" Type="Edm.String" />
+        <Property Name="ChampionScore" Type="Edm.Int32" Nullable="false" />
+        <Property Name="RunHighScore" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Revision" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Rank" Type="Edm.Int32" Nullable="false" />
+        <Property Name="DataSchemaVersion" Type="Edm.Int64" Nullable="false" />
+      </EntityType>
+      <EntityType Name="ChallengeUserDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="FacebookId" Type="Edm.Int64" />
+        <Property Name="AvatarUrl" Type="Edm.String" />
+        <Property Name="ChooseCharater" Type="Edm.Int32" Nullable="false" />
+        <Property Name="NationCode" Type="Edm.String" />
+        <Property Name="ChampionScore" Type="Edm.Int32" Nullable="false" />
+        <Property Name="RunHighScore" Type="Edm.Int64" Nullable="false" />
+        <Property Name="Rank" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+      <EntityType Name="ServerInfoDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="PstNow" Type="Edm.DateTime" Nullable="false" />
+        <Property Name="ResetRemaining" Type="Edm.Int64" Nullable="false" />
+      </EntityType>
+      <EntityType Name="RankedNationDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.String" Nullable="false" />
+        <Property Name="ChampionScore" Type="Edm.Int64" Nullable="false" />
+        <Property Name="MembersCount" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+      <EntityType Name="RankedUserDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="UserName" Type="Edm.String" />
+        <Property Name="AvatarUrl" Type="Edm.String" />
+        <Property Name="ChooseCharater" Type="Edm.Int32" Nullable="false" />
+        <Property Name="NationCode" Type="Edm.String" />
+        <Property Name="ChampionScore" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+      <EntityType Name="SummaryDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.Int64" Nullable="false" />
+        <Property Name="LevelMain" Type="Edm.Int16" Nullable="false" />
+        <Property Name="LevelCurrentWorld" Type="Edm.Int16" Nullable="false" />
+        <Property Name="TournamentsPlayed" Type="Edm.Int32" Nullable="false" />
+        <Property Name="TournamentsPushed" Type="Edm.Int32" Nullable="false" />
+        <Property Name="LivesSent" Type="Edm.Int32" Nullable="false" />
+        <Property Name="AbaddonProcessing" Type="Edm.Int32" Nullable="false" />
+        <Property Name="XmasProcessing" Type="Edm.Int32" Nullable="false" />
+        <Property Name="FriendsCount" Type="Edm.Int32" Nullable="false" />
+        <Property Name="BagOfVacinePack" Type="Edm.Int32" />
+        <Property Name="CrateOfVacinePack" Type="Edm.Int32" />
+        <Property Name="StockpileOfVacinePack" Type="Edm.Int32" />
+        <Property Name="TruckLoadOfVacinePack" Type="Edm.Int32" />
+        <Property Name="VacinePackReserve01" Type="Edm.Int32" />
+        <Property Name="VacinePackReserve02" Type="Edm.Int32" />
+        <Property Name="BagOfFoodPack" Type="Edm.Int32" />
+        <Property Name="CrateOfFoodPack" Type="Edm.Int32" />
+        <Property Name="StockpileOfFoodPack" Type="Edm.Int32" />
+        <Property Name="TruckLoadOfFoodPack" Type="Edm.Int32" />
+        <Property Name="FoodPackReserve01" Type="Edm.Int32" />
+        <Property Name="FoodPackReserve02" Type="Edm.Int32" />
+      </EntityType>
+      <EntityType Name="StatisticDto">
+        <Key>
+          <PropertyRef Name="ID" />
+        </Key>
+        <Property Name="ID" Type="Edm.String" Nullable="false" />
+        <Property Name="TotalUsers" Type="Edm.Int32" Nullable="false" />
+        <Property Name="ActiveUsers" Type="Edm.Int32" Nullable="false" />
+      </EntityType>
+    </Schema>
+    <Schema Namespace="PocketAvenger.Services.OData" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+      <EntityContainer Name="PocketAvengerContext" m:IsDefaultEntityContainer="true">
+        <EntitySet Name="SaveGames" EntityType="PocketAvenger.DataTransferObjects.SaveGameDto" />
+        <EntitySet Name="LookupUsers" EntityType="PocketAvenger.DataTransferObjects.UserDto" />
+        <EntitySet Name="ChallengeUsers" EntityType="PocketAvenger.DataTransferObjects.ChallengeUserDto" />
+        <EntitySet Name="ServerInfos" EntityType="PocketAvenger.DataTransferObjects.ServerInfoDto" />
+        <EntitySet Name="RankedNations" EntityType="PocketAvenger.DataTransferObjects.RankedNationDto" />
+        <EntitySet Name="RankedUsers" EntityType="PocketAvenger.DataTransferObjects.RankedUserDto" />
+        <EntitySet Name="Summaries" EntityType="PocketAvenger.DataTransferObjects.SummaryDto" />
+        <EntitySet Name="Statistics" EntityType="PocketAvenger.DataTransferObjects.StatisticDto" />
+      </EntityContainer>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

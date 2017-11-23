@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\game\GameCore\CAnimObject.cpp">
+      <Filter>Game\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GameCore\CGame_Core.cpp">
+      <Filter>Game\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GameCore\CTouch.cpp">
+      <Filter>Game\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GameCore\Device.cpp">
+      <Filter>Game\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GamePlay\CGame_State.cpp">
+      <Filter>Game\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\PineADVERT.cpp">
+      <Filter>Game\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\DataInputStream\DataInputStream.cpp">
+      <Filter>Game\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sprite\CSprite.cpp">
+      <Filter>Game\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GamePlay\WP8_Connector.cpp">
+      <Filter>Game\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\PineImage.cpp">
+      <Filter>Game\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\DataType\CByteBuffer.cpp">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\png\png.cpp">
+      <Filter>Game\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\lzma\huffman.cpp">
+      <Filter>Game\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GamePlay\Game_ExternFunctions.cpp">
+      <Filter>Game\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GameCore\GameContext.cpp">
+      <Filter>Game\GameCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GamePlay\GameObject\MenuSystem.cpp">
+      <Filter>Game\GamePlay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GamePlay\GameObject\SpriteList.cpp">
+      <Filter>Game\GamePlay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\GamePlay\GameState\CGame_State_Logo.cpp">
+      <Filter>Game\GamePlay\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\..\..\game\GamePlay\GameObject\CScrollBar.cpp">
+      <Filter>Game\GamePlay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sound\SoundEngine.cpp">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio.cpp">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\MediaEnginePlayer.cpp">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\RandomAccessReader.cpp">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\SoundFileReader.cpp">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Sound\XAudio\XAudio2SoundPlayer.cpp">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\OpenGLES\DirectX11.cpp">
+      <Filter>Game\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameCode\WP8_Game_ExternFunctions.cpp">
+      <Filter>GameEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameCode\WP8_GameExternFunctions_NotSupported.cpp">
+      <Filter>GameEx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\ApplicationInfomation.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\DeviceInfomation.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Direct3DBase.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Direct3DContentProvider.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Environment.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\GameDataService.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\GameXamlComponent.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Os_Functions.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Os_Functions_Facebook.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\OS_Functions_InApp.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\OS_Functions_NotSupported.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Os_Functions_Twitter.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\PineRenderer.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\PlayerInfomation.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\StreamBuffer.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\ServerStream\ServerStreamManager.cpp">
+      <Filter>Wp8Src\ServerStream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SourceCPP\Utils.cpp">
+      <Filter>Wp8Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\DataType\ServiceStream.cpp">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\DataType\BufferStream.cpp">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\OpenGLES\Graphic.cpp">
+      <Filter>Game\Lib\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Math\CMath.cpp">
+      <Filter>Game\Lib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Math\PinePolygon.cpp">
+      <Filter>Game\Lib\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\game\Lib\Math\SMatrix4x4.cpp">
+      <Filter>Game\Lib\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\game\GameCore\CAnimObject.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GameCore\CGame.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GameCore\CTouch.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GameCore\Device.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GameCore\Os_Functions.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GamePlay\CGame_include_ex.h">
+      <Filter>Game\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GamePlay\CGame_prototype_ex.h">
+      <Filter>Game\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\PineADVERT.h">
+      <Filter>Game\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\DataInputStream\DataInputStream.h">
+      <Filter>Game\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sprite\CSprite.h">
+      <Filter>Game\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Define_Const.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Define_Misc.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Define_Platform.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Define_Screen.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Define_Simulator.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Define_TypeAndMacro.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Define\Defines.h">
+      <Filter>Game\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\PineImage.h">
+      <Filter>Game\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GamePlay\Game_ExternFunctions.h">
+      <Filter>Game\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\DataType\CByteBuffer.h">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\png\png.h">
+      <Filter>Game\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\lzma\huffman.h">
+      <Filter>Game\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GameCore\GameContext.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GameCore\CType.h">
+      <Filter>Game\GameCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GamePlay\GameObject\MenuSystem.h">
+      <Filter>Game\GamePlay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\GamePlay\GameObject\SpriteList.h">
+      <Filter>Game\GamePlay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="..\..\..\game\GamePlay\GameObject\CScrollBar.h">
+      <Filter>Game\GamePlay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sound\SoundEngine.h">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio.h">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\MediaEnginePlayer.h">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\RandomAccessReader.h">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\SoundFileReader.h">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Sound\XAudio\XAudio2SoundPlayer.h">
+      <Filter>Game\Lib\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\OpenGLES\DirectX11.h">
+      <Filter>Game\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\ApplicationInfomation.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\BasicTimer.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\Connector.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\DeviceInfomation.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\Direct3DBase.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\Direct3DContentProvider.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\DirectXHelper.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\Environment.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\GameDataService.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\GameXamlComponent.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\PineRenderer.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\PlayerInfomation.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\WP8_Connector.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\StreamBuffer.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\ServerStream\ServerStream.h">
+      <Filter>Wp8Src\ServerStream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\ServerStream\ServerStreamManager.h">
+      <Filter>Wp8Src\ServerStream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SourceCPP\Utils.h">
+      <Filter>Wp8Src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\DataType\ServiceStream.h">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\DataType\BufferStream.h">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\DataType\CType.h">
+      <Filter>Game\Lib\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\OpenGLES\Graphic.h">
+      <Filter>Game\Lib\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Math\CMath.h">
+      <Filter>Game\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Math\PinePolygon.h">
+      <Filter>Game\Lib\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\game\Lib\Math\SMatrix4x4.h">
+      <Filter>Game\Lib\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{200dbfcc-7d0e-409f-83e4-eac923930514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib">
+      <UniqueIdentifier>{b9a41a45-1410-47fa-b7c2-cf66697f81bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameCore">
+      <UniqueIdentifier>{3418c96b-5af9-4590-87e7-8f2ea9e4498d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay">
+      <UniqueIdentifier>{acffb20e-c3a9-4ce9-a43d-46cae3c169d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\GameState">
+      <UniqueIdentifier>{6dd6d220-25f5-47f4-9f58-245929ba08f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\GameObject">
+      <UniqueIdentifier>{2693ff00-9e46-4066-8506-f304784d8823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Define">
+      <UniqueIdentifier>{19e231a6-83ea-4929-9c6c-7033d40ab95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wp8Src">
+      <UniqueIdentifier>{663e68e0-1105-4739-b888-2555b880d793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GamePlay\GameDesign">
+      <UniqueIdentifier>{28bad9e3-7026-4d8f-af8c-1337dc58c768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib\DataType">
+      <UniqueIdentifier>{ab4c2a35-294f-4f09-a908-f674114ea4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib\Sound">
+      <UniqueIdentifier>{26a6bcb2-46a5-4dee-b060-26046eaefc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib\Graphic">
+      <UniqueIdentifier>{69693788-7fb4-42a8-8d8a-889fdf6c80b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEx">
+      <UniqueIdentifier>{41034392-6183-4280-911c-e68d32b922f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wp8Src\ServerStream">
+      <UniqueIdentifier>{31ae2060-2be5-4e7d-b489-5c2813c9124d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Lib\Math">
+      <UniqueIdentifier>{2038956c-60c3-4917-bf4e-d0445f5eb1cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\SourceCPP\SimplePixelShader.hlsl">
+      <Filter>Wp8Src</Filter>
+    </FxCompile>
+    <FxCompile Include="..\SourceCPP\SimpleVertexShader.hlsl">
+      <Filter>Wp8Src</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

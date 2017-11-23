@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "109624411098",
+    "firebase_url": "https://higher-higher-79993169.firebaseio.com",
+    "project_id": "higher-higher-79993169",
+    "storage_bucket": "higher-higher-79993169.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109624411098:android:260347a875db7583",
+        "android_client_info": {
+          "package_name": "topebox.game.higherhigher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109624411098-r2bf74igqsphqiherf81hsimlltgoonm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFdm-U2osYEnYI1sXUZJnJArsa7tbowwU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109624411098-r2bf74igqsphqiherf81hsimlltgoonm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

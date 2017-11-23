@@ -1,0 +1,239 @@
+TScrumptious
+v7
+r1
+cCheck dependencies
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+c00000000507E457F0000000000000088
+t1350452607
+s136
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+c00000000507E457F0000000000000110
+t1350452607
+s272
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon-72.png
+c00000000503FFB880000000000002706
+t1346370440
+s9990
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon.png
+c00000000503FFB880000000000002315
+t1346370440
+s8981
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon@2x.png
+c00000000503FFB8800000000000035E0
+t1346370440
+s13792
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib
+c000000005063340F0000000000004151
+t1348678671
+s16721
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/InfoPlist.strings
+c00000000503FFB88000000000000002D
+t1346370440
+s45
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib
+c00000000503FFB880000000000003F94
+t1346370440
+s16276
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/images/facebook.png
+c00000000503FFB880000000000000C54
+t1346370440
+s3156
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Info.plist
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/Default-568h@2x.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/Default@2x.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/FBUserSettingsViewResources.bundle
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/FacebookSDKResources.bundle
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/Icon-72.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/Icon@2x.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/SCLoginViewController.nib
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/action-eating.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/action-location.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/action-people.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/en.lproj/SCViewController.nib
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/en.lproj/Scrumptious.strings
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/facebook.png
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/he.lproj/Scrumptious.strings
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default-568h@2x.png
+c000000005063340F0000000000000E53
+t1348678671
+s3667
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default.png
+c000000005063340F0000000000000533
+t1348678671
+s1331
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default@2x.png
+c000000005063340F0000000000000EFB
+t1348678671
+s3835
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/en.lproj/Scrumptious.strings
+c00000000503FFB880000000000000023
+t1346370440
+s35
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/he.lproj/Scrumptious.strings
+c00000000503FFB880000000000000023
+t1346370440
+s35
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-eating.png
+c00000000503FFB880000000000000ACB
+t1346370440
+s2763
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-location.png
+c00000000503FFB880000000000000C48
+t1346370440
+s3144
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-people.png
+c00000000503FFB880000000000000A20
+t1346370440
+s2592
+
+NScrumptious/Scrumptious-Info.plist
+c00000000506B055E0000000000000603
+t1349191006
+s1539
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies372186989#372186989#0(63"[BEROR]error: There is no SDK with the name or path 'iphoneos'1(4@55"error: There is no SDK with the name or path 'iphoneos'372186989#18446744073709551615#0#0(1@0"0(0#1#0"17195021056#0"0#
+
+CCodeSign /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app
+r0
+
+CCompileXIB /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib
+r0
+
+CCompileXIB /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib
+r0
+
+CCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/en.lproj/InfoPlist.strings Scrumptious/en.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/en.lproj/Scrumptious.strings scrumptious/en.lproj/Scrumptious.strings
+r0
+
+CCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Resources/he.lproj/Scrumptious.strings scrumptious/he.lproj/Scrumptious.strings
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/Default-568h@2x.png scrumptious/Default-568h@2x.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/Default.png scrumptious/Default.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/Default@2x.png scrumptious/Default@2x.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/FBUserSettingsViewResources.bundle ../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/FacebookSDKResources.bundle ../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/Icon-72.png Scrumptious/../Icon-72.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/Icon.png Scrumptious/../Icon.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/Icon@2x.png Scrumptious/../Icon@2x.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/action-eating.png scrumptious/images/action-eating.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/action-location.png scrumptious/images/action-location.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/action-people.png scrumptious/images/action-people.png
+r0
+
+CCpResource build/Debug/Scrumptious.app/Contents/Resources/facebook.png Scrumptious/images/facebook.png
+r0
+
+CProcessInfoPlistFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app/Contents/Info.plist Scrumptious/Scrumptious-Info.plist
+r0
+
+CTouch /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug/Scrumptious.app
+r0
+

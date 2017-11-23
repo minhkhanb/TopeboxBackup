@@ -1,0 +1,916 @@
+TScrumptious
+v7
+r0
+t372187042.096408
+cCheck dependencies
+cProcessInfoPlistFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Info.plist Scrumptious/Scrumptious-Info.plist
+cProcessPCH /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch.pth Scrumptious/Scrumptious-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/main.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCAppDelegate.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCViewController.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCLoginViewController.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/InfoPlist.strings Scrumptious/en.lproj/InfoPlist.strings
+cCompileXIB /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib
+cCompileXIB /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/facebook.png Scrumptious/images/facebook.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/Icon-72.png Scrumptious/../Icon-72.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/Icon.png Scrumptious/../Icon.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/Icon@2x.png Scrumptious/../Icon@2x.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/action-eating.png scrumptious/images/action-eating.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/action-location.png scrumptious/images/action-location.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/action-people.png scrumptious/images/action-people.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/FacebookSDKResources.bundle ../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+cCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/Scrumptious.strings scrumptious/en.lproj/Scrumptious.strings
+cCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/he.lproj/Scrumptious.strings scrumptious/he.lproj/Scrumptious.strings
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/FBUserSettingsViewResources.bundle ../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/Default-568h@2x.png scrumptious/Default-568h@2x.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/Default.png scrumptious/Default.png
+cCpResource build/Debug-iphonesimulator/Scrumptious.app/Default@2x.png scrumptious/Default@2x.png
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c00000000507EE6BB0000000000000132
+t1350493883
+s306
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AdSupport.framework/AdSupport
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004BFF3B87000000000006F150
+t1275018119
+s454992
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
+c000000004BFF3B830000000000000424
+t1275018115
+s1060
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004BFF44C00000000000068F90
+t1275020480
+s429968
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004BFF44B600000000000001D0
+t1275020470
+s464
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Social.framework/Social
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/TargetConditionals.h
+c000000004BF4CBFA00000000000031E9
+t1274334202
+s12777
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBCacheDescriptor.h
+c00000000507E457F0000000000000555
+t1350452607
+s1365
+i<Foundation/Foundation.h>
+i"FBSession.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBError.h
+c00000000507E457F00000000000011E7
+t1350452607
+s4583
+i<Foundation/Foundation.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBFriendPickerViewController.h
+c00000000507E457F00000000000023C1
+t1350452607
+s9153
+i<UIKit/UIKit.h>
+i"FBGraphUser.h"
+i"FBSession.h"
+i"FBCacheDescriptor.h"
+i"FBViewController.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBGraphLocation.h
+c00000000507E457F0000000000000758
+t1350452607
+s1880
+i<Foundation/Foundation.h>
+i"FBGraphObject.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBGraphObject.h
+c00000000507E457F0000000000002462
+t1350452607
+s9314
+i<Foundation/Foundation.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBGraphPlace.h
+c00000000507E457F0000000000000606
+t1350452607
+s1542
+i<Foundation/Foundation.h>
+i"FBGraphLocation.h"
+i"FBGraphObject.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBGraphUser.h
+c00000000507E457F0000000000000860
+t1350452607
+s2144
+i<Foundation/Foundation.h>
+i"FBGraphPlace.h"
+i"FBGraphObject.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBLoginView.h
+c00000000507E457F00000000000012B3
+t1350452607
+s4787
+i<UIKit/UIKit.h>
+i"FBSession.h"
+i"FBGraphUser.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBNativeDialogs.h
+c00000000507E457F0000000000001D7E
+t1350452607
+s7550
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBOpenGraphAction.h
+c00000000507E457F0000000000000C3B
+t1350452607
+s3131
+i<Foundation/Foundation.h>
+i"FBGraphObject.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBPlacePickerViewController.h
+c00000000507E457F000000000000202A
+t1350452607
+s8234
+i<UIKit/UIKit.h>
+i<CoreLocation/CoreLocation.h>
+i"FBGraphPlace.h"
+i"FBSession.h"
+i"FBCacheDescriptor.h"
+i"FBViewController.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBProfilePictureView.h
+c00000000507E457F0000000000000994
+t1350452607
+s2452
+i<UIKit/UIKit.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBRequest.h
+c00000000507E457F0000000000004322
+t1350452607
+s17186
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"FBRequestConnection.h"
+i"FBGraphObject.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBRequestConnection.h
+c00000000507E457F0000000000003847
+t1350452607
+s14407
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i"FBGraphObject.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBSession.h
+c00000000507E457F0000000000007344
+t1350452607
+s29508
+i<Foundation/Foundation.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBSettings.h
+c00000000507E457F0000000000000AFE
+t1350452607
+s2814
+i<Foundation/Foundation.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBUserSettingsViewController.h
+c00000000507E457F0000000000000F88
+t1350452607
+s3976
+i<UIKit/UIKit.h>
+i"FBSession.h"
+i"FBViewController.h"
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FBViewController.h
+c00000000507E457F000000000000104A
+t1350452607
+s4170
+i<UIKit/UIKit.h>
+
+N/Users/chrisp/src/ios-sdk/build/FacebookSDK.framework/Headers/FacebookSDK.h
+c00000000507E457F0000000000001528
+t1350452607
+s5416
+i"FBSession.h"
+i"FBRequest.h"
+i"FBError.h"
+i"FBSettings.h"
+i"FBLoginView.h"
+i"FBProfilePictureView.h"
+i"FBUserSettingsViewController.h"
+i"FBPlacePickerViewController.h"
+i"FBFriendPickerViewController.h"
+i"FBCacheDescriptor.h"
+i"FBGraphUser.h"
+i"FBGraphPlace.h"
+i"FBGraphLocation.h"
+i"FBGraphObject.h"
+i"FBOpenGraphAction.h"
+i"FBLoginView.h"
+i"FBProfilePictureView.h"
+i"FBPlacePickerViewController.h"
+i"FBFriendPickerViewController.h"
+i"FBCacheDescriptor.h"
+i"FBNativeDialogs.h"
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/FacebookSDK
+c00000000507E457F000000000088FFDC
+t1350452607
+s8978396
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+c00000000507E457F0000000000000088
+t1350452607
+s136
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+c00000000507E457F0000000000000110
+t1350452607
+s272
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon-72.png
+c00000000503FFB880000000000002706
+t1346370440
+s9990
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon.png
+c00000000503FFB880000000000002315
+t1346370440
+s8981
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon@2x.png
+c00000000503FFB8800000000000035E0
+t1346370440
+s13792
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h
+c00000000506F60DA00000000000005CF
+t1349476570
+s1487
+i<UIKit/UIKit.h>
+i<FacebookSDK/FacebookSDK.h>
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m
+c00000000507EE364000000000000258A
+t1350493028
+s9610
+i"SCAppDelegate.h"
+i"SCViewController.h"
+i"SCLoginViewController.h"
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.h
+c00000000503FFB8800000000000003F7
+t1346370440
+s1015
+i<UIKit/UIKit.h>
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m
+c00000000506F60DA00000000000008EB
+t1349476570
+s2283
+i"SCLoginViewController.h"
+i"SCAppDelegate.h"
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib
+c000000005063340F0000000000004151
+t1348678671
+s16721
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCProtocols.h
+c00000000503FFB88000000000000054A
+t1346370440
+s1354
+i<Foundation/Foundation.h>
+i<FacebookSDK/FacebookSDK.h>
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h
+c000000005063340F00000000000003EA
+t1348678671
+s1002
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<FacebookSDK/FacebookSDK.h>
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m
+c000000005078A0DA0000000000006E4F
+t1350082778
+s28239
+i"SCViewController.h"
+i"SCAppDelegate.h"
+i"SCLoginViewController.h"
+i"SCProtocols.h"
+i<AddressBook/AddressBook.h>
+i"TargetConditionals.h"
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/Scrumptious-Prefix.pch
+c00000000503FFB880000000000000310
+t1346370440
+s784
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/InfoPlist.strings
+c00000000503FFB88000000000000002D
+t1346370440
+s45
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib
+c00000000503FFB880000000000003F94
+t1346370440
+s16276
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/images/facebook.png
+c00000000503FFB880000000000000C54
+t1346370440
+s3156
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m
+c000000005063340F0000000000000347
+t1348678671
+s839
+i<Accounts/ACAccountStore.h>
+i<UIKit/UIKit.h>
+i"SCAppDelegate.h"
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app
+t1350494242
+s612
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app.dSYM
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Default-568h@2x.png
+t1350494242
+s3667
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Default.png
+t1350494242
+s1331
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Default@2x.png
+t1350494242
+s3835
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/FBUserSettingsViewResources.bundle
+t1350494242
+s136
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/FacebookSDKResources.bundle
+t1350494241
+s272
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Icon-72.png
+t1350494241
+s9990
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Icon.png
+t1350494241
+s8981
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Icon@2x.png
+t1350494241
+s13792
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Info.plist
+t1350494241
+s972
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/PkgInfo
+t1350494241
+s8
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/SCLoginViewController.nib
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Scrumptious
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/action-eating.png
+t1350494241
+s2763
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/action-location.png
+t1350494241
+s3144
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/action-people.png
+t1350494241
+s2592
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/InfoPlist.strings
+t1350494242
+s42
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/SCViewController.nib
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/Scrumptious.strings
+t1350494242
+s42
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/facebook.png
+t1350494241
+s3156
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/he.lproj/Scrumptious.strings
+t1350494242
+s42
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCAppDelegate.o
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCLoginViewController.o
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCViewController.o
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/Scrumptious.LinkFileList
+c00000000507EE821000000000000024A
+t1350494241
+s586
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default-568h@2x.png
+c000000005063340F0000000000000E53
+t1348678671
+s3667
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default.png
+c000000005063340F0000000000000533
+t1348678671
+s1331
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default@2x.png
+c000000005063340F0000000000000EFB
+t1348678671
+s3835
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/en.lproj/Scrumptious.strings
+c00000000503FFB880000000000000023
+t1346370440
+s35
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/he.lproj/Scrumptious.strings
+c00000000503FFB880000000000000023
+t1346370440
+s35
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-eating.png
+c00000000503FFB880000000000000ACB
+t1346370440
+s2763
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-location.png
+c00000000503FFB880000000000000C48
+t1346370440
+s3144
+
+N/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-people.png
+c00000000503FFB880000000000000A20
+t1346370440
+s2592
+
+N/var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch.pth
+t1350494241
+s2688136
+
+NScrumptious/Scrumptious-Info.plist
+c00000000506B055E0000000000000603
+t1349191006
+s1539
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies372187041#372187041#0(0"0(0#1#0"17252788480#0"0#
+
+CCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCAppDelegate.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s372187041.742954
+e372187041.802406
+r0
+xCompileC
+xbuild/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCAppDelegate.o
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:17:
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:76:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas]
+o #pragma GCC diagnostic push
+o                        ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:79:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas]
+o #pragma GCC diagnostic pop
+o                        ^
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:17:
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:25:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UINavigationController *navController;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:26:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) SCViewController *mainViewController;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:27:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) SCLoginViewController* loginViewController;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:94:27: error: expected identifier
+o                 [FBSession.activeSession closeAndClearTokenInformation];
+o                           ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:156:22: error: expected identifier
+o     return [FBSession.activeSession handleOpenURL:url];
+o                      ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:164:15: error: expected identifier
+o     [FBSession.activeSession close];
+o               ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:171:15: error: expected identifier
+o     [FBSession.activeSession handleDidBecomeActive];
+o               ^
+o4 warnings and 8 errors generated.
+lSLF07#2@81"Compile /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372187041#372187041#0(2920"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:17:In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:76:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas] #pragma GCC diagnostic push                        ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:79:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas] #pragma GCC diagnostic pop                        ^In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:17:/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:25:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UINavigationController *navController;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:26:12: error: unknown property attribute 'strong' @property (strong, nonatomic) SCViewController *mainViewController;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:27:12: error: unknown property attribute 'strong' @property (strong, nonatomic) SCLoginViewController* loginViewController;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:94:27: error: expected identifier                 [FBSession.activeSession closeAndClearTokenInformation];                           ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:156:22: error: expected identifier     return [FBSession.activeSession handleOpenURL:url];                      ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:164:15: error: expected identifier     [FBSession.activeSession close];               ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:171:15: error: expected identifier     [FBSession.activeSession handleDidBecomeActive];               ^4 warnings and 8 errors generated.12(22@68"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'372187041#328#205#4(7@127"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:372187041#200#128#0(6@101"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h372145407#19#0#19#0#0"0(7@99"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:372187041#100#100#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#18#0#18#0#0"0(7@99"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:17:372187041#0#100#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#17#0#17#0#0"0(13@171"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' in /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372187041#18446744073709551615#0#0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#76#24#0#0#0"0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#76#24#0#0#68"pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'0(22@68"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'372187041#588#205#4(7@127"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:372187041#18446744073709551615#0#0(6@101"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h372145407#19#0#19#0#0"0(7@99"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:372187041#18446744073709551615#0#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#18#0#18#0#0"0(7@99"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m:17:372187041#18446744073709551615#0#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#17#0#17#0#0"0(13@171"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' in /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372187041#18446744073709551615#0#0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#79#24#0#0#0"0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#79#24#0#0#68"pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'0(4@35"Unknown property attribute 'strong'372187041#947#124#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed372187041#1134#167#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object372187041#1353#159#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'372187041#1512#124#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#25#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#1720#124#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#26#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#1927#124#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#27#12#0#0#28"unknown property attribute *0(4@19"Expected identifier372187041#2140#108#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#94#27#0#0#19"expected identifier0(4@19"Expected identifier372187041#2351#109#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#156#22#0#0#19"expected identifier0(4@19"Expected identifier372187041#2541#109#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#164#15#0#0#19"expected identifier0(4@19"Expected identifier372187041#2705#109#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m372185828#171#15#0#0#19"expected identifier0(0#0#73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m4542955104#2256"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv LANG en_US.US-ASCII    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-generated-files.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-own-target-headers.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-all-target-headers.hmap -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-project-headers.hmap -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/include -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources/i386 -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources -include /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch -c /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.m -o /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCAppDelegate.o1#
+
+CCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCLoginViewController.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s372187041.745092
+e372187041.791413
+r0
+xCompileC
+xbuild/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCLoginViewController.o
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:18:
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:76:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas]
+o #pragma GCC diagnostic push
+o                        ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:79:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas]
+o #pragma GCC diagnostic pop
+o                        ^
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:18:
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:22:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:23:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UIButton *loginButton;
+o            ^
+o4 warnings and 3 errors generated.
+lSLF07#2@89"Compile /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m372187041#372187041#0(1992"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:18:In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:76:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas] #pragma GCC diagnostic push                        ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:79:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas] #pragma GCC diagnostic pop                        ^In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:18:/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:22:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UIActivityIndicatorView *spinner;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:23:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UIButton *loginButton;            ^4 warnings and 3 errors generated.7(22@68"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'372187041#336#205#4(7@127"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:372187041#208#128#0(6@101"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h372145407#19#0#19#0#0"0(7@99"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:372187041#108#100#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#18#0#18#0#0"0(7@107"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:18:372187041#0#108#0(6@81"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m371169370#18#0#18#0#0"0(13@171"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' in /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372187041#18446744073709551615#0#0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#76#24#0#0#0"0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#76#24#0#0#68"pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'0(22@68"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'372187041#596#205#4(7@127"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:372187041#18446744073709551615#0#0(6@101"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h372145407#19#0#19#0#0"0(7@99"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:18:372187041#18446744073709551615#0#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#18#0#18#0#0"0(7@107"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m:18:372187041#18446744073709551615#0#0(6@81"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m371169370#18#0#18#0#0"0(13@171"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' in /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372187041#18446744073709551615#0#0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#79#24#0#0#0"0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#79#24#0#0#68"pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'0(4@35"Unknown property attribute 'strong'372187041#963#124#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed372187041#1150#167#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object372187041#1369#159#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'372187041#1528#132#0(6@81"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m371169370#22#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#1748#132#0(6@81"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m371169370#23#12#0#0#28"unknown property attribute *0(0#0#81"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m4542955104#2272"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv LANG en_US.US-ASCII    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-generated-files.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-own-target-headers.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-all-target-headers.hmap -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-project-headers.hmap -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/include -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources/i386 -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources -include /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch -c /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.m -o /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCLoginViewController.o1#
+
+CCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCViewController.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s372187041.743909
+e372187041.812795
+r0
+xCompileC
+xbuild/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCViewController.o
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:17:
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h:19:
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:76:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas]
+o #pragma GCC diagnostic push
+o                        ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:79:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas]
+o #pragma GCC diagnostic pop
+o                        ^
+oIn file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:18:
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIWindow *window;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed
+o @property (strong, nonatomic) UIWindow *window;
+o ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: default property attribute 'assign' not appropriate for non-gc object
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:31:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) FBUserSettingsViewController *settingsViewController;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:32:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet FBProfilePictureView *userProfileImage;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:33:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UILabel *userNameLabel;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:34:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UIButton *announceButton;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:35:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) IBOutlet UITableView *menuTableView;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:36:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIActionSheet *mealPickerActionSheet;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:39:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) NSObject<FBGraphPlace> *selectedPlace;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:40:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) NSString *selectedMeal;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:41:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) NSArray *selectedFriends;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:42:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) CLLocationManager *locationManager;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:43:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) FBCacheDescriptor *placeCacheDescriptor;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:44:12: error: unknown property attribute 'strong'
+o @property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;
+o            ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:154:63:{154:64-154:92}: error: array subscript is not an integer
+o                                          if ([[error userInfo][FBErrorParsedJSONResponseKey][@"body"][@"error"][@"code"] compare:@200] == NSOrderedSame) {
+o                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:155:56: error: expected identifier
+o                                              [FBSession.activeSession reauthorizeWithPublishPermissions:[NSArray arrayWithObject:@"publish_actions"]
+o                                                        ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:195:19: error: expected identifier
+o     if ([FBSession.activeSession.permissions indexOfObject:@"publish_actions"] == NSNotFound) {
+o                   ^
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:197:19: error: expected identifier
+o         [FBSession.activeSession reauthorizeWithPublishPermissions:[NSArray arrayWithObject:@"publish_actions"]
+o                   ^
+o4 warnings and 17 errors generated.
+lSLF07#2@84"Compile /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m372187041#372187041#0(5264"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:17:In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h:19:In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:76:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas] #pragma GCC diagnostic push                        ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h:79:24: warning: pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' [-Wunknown-pragmas] #pragma GCC diagnostic pop                        ^In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:18:/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIWindow *window;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed @property (strong, nonatomic) UIWindow *window; ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h:31:1: warning: default property attribute 'assign' not appropriate for non-gc object/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:31:12: error: unknown property attribute 'strong' @property (strong, nonatomic) FBUserSettingsViewController *settingsViewController;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:32:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet FBProfilePictureView *userProfileImage;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:33:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UILabel *userNameLabel;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:34:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UIButton *announceButton;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:35:12: error: unknown property attribute 'strong' @property (strong, nonatomic) IBOutlet UITableView *menuTableView;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:36:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIActionSheet *mealPickerActionSheet;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:39:12: error: unknown property attribute 'strong' @property (strong, nonatomic) NSObject<FBGraphPlace> *selectedPlace;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:40:12: error: unknown property attribute 'strong' @property (strong, nonatomic) NSString *selectedMeal;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:41:12: error: unknown property attribute 'strong' @property (strong, nonatomic) NSArray *selectedFriends;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:42:12: error: unknown property attribute 'strong' @property (strong, nonatomic) CLLocationManager *locationManager;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:43:12: error: unknown property attribute 'strong' @property (strong, nonatomic) FBCacheDescriptor *placeCacheDescriptor;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:44:12: error: unknown property attribute 'strong' @property (strong, nonatomic) UIActivityIndicatorView *activityIndicator;            ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:154:63:{154:64-154:92}: error: array subscript is not an integer                                          if ([[error userInfo][FBErrorParsedJSONResponseKey][@"body"][@"error"][@"code"] compare:@200] == NSOrderedSame) {                                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:155:56: error: expected identifier                                              [FBSession.activeSession reauthorizeWithPublishPermissions:[NSArray arrayWithObject:@"publish_actions"]                                                        ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:195:19: error: expected identifier     if ([FBSession.activeSession.permissions indexOfObject:@"publish_actions"] == NSNotFound) {                   ^/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:197:19: error: expected identifier         [FBSession.activeSession reauthorizeWithPublishPermissions:[NSArray arrayWithObject:@"publish_actions"]                   ^4 warnings and 17 errors generated.21(22@68"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'372187041#334#205#4(7@127"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:372187041#206#128#0(6@101"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h372145407#19#0#19#0#0"0(7@102"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h:19:372187041#103#103#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h370371471#19#0#19#0#0"0(7@102"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:17:372187041#0#103#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#17#0#17#0#0"0(13@171"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' in /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372187041#18446744073709551615#0#0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#76#24#0#0#0"0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#76#24#0#0#68"pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'0(22@68"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'372187041#594#205#4(7@127"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h:19:372187041#18446744073709551615#0#0(6@101"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FacebookSDK.h372145407#19#0#19#0#0"0(7@102"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h:19:372187041#18446744073709551615#0#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.h370371471#19#0#19#0#0"0(7@102"In file included from /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m:17:372187041#18446744073709551615#0#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#17#0#17#0#0"0(13@171"Pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal' in /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372187041#18446744073709551615#0#0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#79#24#0#0#0"0(6@99"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Headers/FBRequest.h372145407#79#24#0#0#68"pragma diagnostic expected 'error', 'warning', 'ignored', or 'fatal'0(4@35"Unknown property attribute 'strong'372187041#956#124#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#12#0#0#28"unknown property attribute *0(22@77"No 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed372187041#1143#167#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#1#0#0#77"no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed0(22@69"Default property attribute 'assign' not appropriate for non-gc object372187041#1362#159#0(6@73"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCAppDelegate.h371169370#31#1#0#0#69"default property attribute 'assign' not appropriate for non-gc object0(4@35"Unknown property attribute 'strong'372187041#1521#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#31#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#1747#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#32#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#1968#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#33#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#2173#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#34#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#2380#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#35#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#2589#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#36#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#2799#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#39#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#3010#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#40#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#3206#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#41#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#3404#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#42#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#3612#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#43#12#0#0#28"unknown property attribute *0(4@35"Unknown property attribute 'strong'372187041#3825#127#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#44#12#0#0#28"unknown property attribute *0(4@33"Array subscript is not an integer372187041#4041#142#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#154#63#0#0#33"array subscript is not an integer1(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#154#64#154#92#4@19"Expected identifier372187041#4432#112#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#155#56#0#0#19"expected identifier0(4@19"Expected identifier372187041#4752#112#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#195#19#0#0#19"expected identifier0(4@19"Expected identifier372187041#4982#112#0(6@76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m371775578#197#19#0#0#19"expected identifier0(0#0#76"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m4542955104#2262"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv LANG en_US.US-ASCII    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-generated-files.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-own-target-headers.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-all-target-headers.hmap -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-project-headers.hmap -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/include -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources/i386 -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources -include /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch -c /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCViewController.m -o /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/SCViewController.o1#
+
+CCompileC build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/main.o /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s372187041.741714
+e372187041.790820
+r0
+xCompileC
+xbuild/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/main.o
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m:17:9: fatal error: 'Accounts/ACAccountStore.h' file not found
+o #import <Accounts/ACAccountStore.h>
+o         ^
+o1 error generated.
+lSLF07#2@72"Compile /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m372187041#372187041#0(194"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m:17:9: fatal error: 'Accounts/ACAccountStore.h' file not found #import <Accounts/ACAccountStore.h>         ^1 error generated.1(4@42"'Accounts/ACAccountStore.h' file not found372187041#0#127#0(6@64"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m370371471#17#9#0#0#18"'*' file not found0(0#0#64"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m4542955104#2238"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv LANG en_US.US-ASCII    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-generated-files.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-own-target-headers.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-all-target-headers.hmap -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-project-headers.hmap -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/include -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources/i386 -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources -include /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch -c /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/main.m -o /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Objects-normal/i386/main.o1#
+
+CCompileXIB /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib
+s372187041.814736
+e372187042.072872
+r0
+xCompileXIB
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib
+o/* com.apple.ibtool.errors */
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib: error: This version of Interface Builder does not support documents of type "Interface Builder Cocoa Touch Document (XIB 3.x)" targeting "iPhone/iPod touch".
+lSLF07#2@48"CompileXIB Scrumptious/SCLoginViewController.xib372187041#372187042#0(273"/* com.apple.ibtool.errors *//Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib: error: This version of Interface Builder does not support documents of type "Interface Builder Cocoa Touch Document (XIB 3.x)" targeting "iPhone/iPod touch".1(4@150"This version of Interface Builder does not support documents of type "Interface Builder Cocoa Touch Document (XIB 3.x)" targeting "iPhone/iPod touch".372187042#18446744073709551615#0#0(6@83"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib370371471#0#0#0#0#0"0(0#0#83"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib4542955104#669"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/SCLoginViewController.nib /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/SCLoginViewController.xib --sdk /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk1#
+
+CCompileXIB /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib
+s372187041.814015
+e372187042.072577
+r0
+xCompileXIB
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib
+o/* com.apple.ibtool.errors */
+o/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib: error: This version of Interface Builder does not support documents of type "Interface Builder Cocoa Touch Document (XIB 3.x)" targeting "iPhone/iPod touch".
+lSLF07#2@52"CompileXIB Scrumptious/en.lproj/SCViewController.xib372187041#372187042#0(277"/* com.apple.ibtool.errors *//Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib: error: This version of Interface Builder does not support documents of type "Interface Builder Cocoa Touch Document (XIB 3.x)" targeting "iPhone/iPod touch".1(4@150"This version of Interface Builder does not support documents of type "Interface Builder Cocoa Touch Document (XIB 3.x)" targeting "iPhone/iPod touch".372187042#18446744073709551615#0#0(6@87"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib368063240#0#0#0#0#0"0(0#0#87"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib4542955104#677"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/SCViewController.nib /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/SCViewController.xib --sdk /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk1#
+
+CCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/InfoPlist.strings Scrumptious/en.lproj/InfoPlist.strings
+s372187041.812892
+e372187042.026266
+r1
+xCopyStringsFile
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/InfoPlist.strings
+xScrumptious/en.lproj/InfoPlist.strings
+lSLF07#2@43"Copy Scrumptious/en.lproj/InfoPlist.strings372187041#372187042#0(0"0(0#0#84"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/en.lproj/InfoPlist.strings4542955104#543"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv ICONV /usr/bin/iconv    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary Scrumptious/en.lproj/InfoPlist.strings --outdir /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj0#
+
+CCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/Scrumptious.strings scrumptious/en.lproj/Scrumptious.strings
+s372187041.849308
+e372187042.029203
+r1
+xCopyStringsFile
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj/Scrumptious.strings
+xscrumptious/en.lproj/Scrumptious.strings
+lSLF07#2@45"Copy scrumptious/en.lproj/Scrumptious.strings372187041#372187042#0(0"0(0#0#86"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/en.lproj/Scrumptious.strings4542955104#545"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv ICONV /usr/bin/iconv    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary scrumptious/en.lproj/Scrumptious.strings --outdir /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/en.lproj0#
+
+CCopyStringsFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/he.lproj/Scrumptious.strings scrumptious/he.lproj/Scrumptious.strings
+s372187042.026345
+e372187042.084989
+r1
+xCopyStringsFile
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/he.lproj/Scrumptious.strings
+xscrumptious/he.lproj/Scrumptious.strings
+lSLF07#2@45"Copy scrumptious/he.lproj/Scrumptious.strings372187042#372187042#0(0"0(0#0#86"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/he.lproj/Scrumptious.strings4542955104#545"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv ICONV /usr/bin/iconv    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary scrumptious/he.lproj/Scrumptious.strings --outdir /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/he.lproj0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/Default-568h@2x.png scrumptious/Default-568h@2x.png
+s372187042.030428
+e372187042.047863
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/Default-568h@2x.png
+xscrumptious/Default-568h@2x.png
+lSLF07#2@36"Copy scrumptious/Default-568h@2x.png372187042#372187042#0(0"0(0#0#77"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default-568h@2x.png4542955104#530"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default-568h@2x.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/Default.png scrumptious/Default.png
+s372187042.031667
+e372187042.046521
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/Default.png
+xscrumptious/Default.png
+lSLF07#2@28"Copy scrumptious/Default.png372187042#372187042#0(0"0(0#0#69"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default.png4542955104#522"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/Default@2x.png scrumptious/Default@2x.png
+s372187042.033229
+e372187042.047621
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/Default@2x.png
+xscrumptious/Default@2x.png
+lSLF07#2@31"Copy scrumptious/Default@2x.png372187042#372187042#0(0"0(0#0#72"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default@2x.png4542955104#525"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/Default@2x.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/FBUserSettingsViewResources.bundle ../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+s372187042.029317
+e372187042.096338
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/FBUserSettingsViewResources.bundle
+x../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle
+lSLF07#2@94"Copy ../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle372187042#372187042#0(0"0(0#0#135"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle4542955104#588"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FBUserSettingsViewResources.bundle /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/FacebookSDKResources.bundle ../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+s372187041.844205
+e372187041.878360
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/FacebookSDKResources.bundle
+x../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle
+lSLF07#2@87"Copy ../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle372187041#372187041#0(0"0(0#0#128"/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle4542955104#581"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build/FacebookSDK.framework/Versions/A/Resources/FacebookSDKResources.bundle /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/Icon-72.png Scrumptious/../Icon-72.png
+s372187041.816372
+e372187041.853511
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/Icon-72.png
+xScrumptious/../Icon-72.png
+lSLF07#2@31"Copy Scrumptious/../Icon-72.png372187041#372187041#0(0"0(0#0#72"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon-72.png4542955104#525"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon-72.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/Icon.png Scrumptious/../Icon.png
+s372187041.817320
+e372187041.854615
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/Icon.png
+xScrumptious/../Icon.png
+lSLF07#2@28"Copy Scrumptious/../Icon.png372187041#372187041#0(0"0(0#0#69"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon.png4542955104#522"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/Icon@2x.png Scrumptious/../Icon@2x.png
+s372187041.818560
+e372187041.849068
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/Icon@2x.png
+xScrumptious/../Icon@2x.png
+lSLF07#2@31"Copy Scrumptious/../Icon@2x.png372187041#372187041#0(0"0(0#0#72"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon@2x.png4542955104#525"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/../Icon@2x.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/action-eating.png scrumptious/images/action-eating.png
+s372187041.819465
+e372187041.853292
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/action-eating.png
+xscrumptious/images/action-eating.png
+lSLF07#2@41"Copy scrumptious/images/action-eating.png372187041#372187041#0(0"0(0#0#82"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-eating.png4542955104#535"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-eating.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/action-location.png scrumptious/images/action-location.png
+s372187041.820146
+e372187041.844088
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/action-location.png
+xscrumptious/images/action-location.png
+lSLF07#2@43"Copy scrumptious/images/action-location.png372187041#372187041#0(0"0(0#0#84"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-location.png4542955104#537"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-location.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/action-people.png scrumptious/images/action-people.png
+s372187041.821011
+e372187041.849210
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/action-people.png
+xscrumptious/images/action-people.png
+lSLF07#2@41"Copy scrumptious/images/action-people.png372187041#372187041#0(0"0(0#0#82"/Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-people.png4542955104#535"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/scrumptious/images/action-people.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CCpResource build/Debug-iphonesimulator/Scrumptious.app/facebook.png Scrumptious/images/facebook.png
+s372187041.815488
+e372187041.848848
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Scrumptious.app/facebook.png
+xScrumptious/images/facebook.png
+lSLF07#2@36"Copy Scrumptious/images/facebook.png372187041#372187041#0(0"0(0#0#77"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/images/facebook.png4542955104#530"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/images/facebook.png /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app0#
+
+CGenerateDSYMFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app.dSYM /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Scrumptious
+r0
+
+CLd /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Scrumptious normal i386
+r0
+
+CProcessInfoPlistFile /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Info.plist Scrumptious/Scrumptious-Info.plist
+s372187041.415988
+e372187041.437195
+r1
+xProcessInfoPlistFile
+x/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Info.plist
+xScrumptious/Scrumptious-Info.plist
+lSLF07#2@42"Process Scrumptious/Scrumptious-Info.plist372187041#372187041#0(0"0(0#0#80"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/Scrumptious-Info.plist17189292544#544"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Scrumptious/Scrumptious-Info.plist -genpkginfo /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app/Info.plist0#
+
+CProcessPCH /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch.pth Scrumptious/Scrumptious-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s372187041.437304
+e372187041.741616
+r1
+xProcessPCH
+x/var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch.pth
+xScrumptious/Scrumptious-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@45"Precompile Scrumptious/Scrumptious-Prefix.pch372187041#372187041#0(0"0(0#0#80"/Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/Scrumptious-Prefix.pch4542955104#2119"    cd /Users/chrisp/src/ios-sdk/samples/Scrumptious    setenv LANG en_US.US-ASCII    setenv PATH "/Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/chrisp/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -Wuninitialized -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Users/chrisp/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-generated-files.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-own-target-headers.hmap -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-all-target-headers.hmap -iquote /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/Scrumptious-project-headers.hmap -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator -F/Users/chrisp/src/ios-sdk/samples/Scrumptious/../../build -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/include -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources/i386 -I/Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Scrumptious.build/Debug-iphonesimulator/Scrumptious.build/DerivedSources -c /Users/chrisp/src/ios-sdk/samples/Scrumptious/Scrumptious/Scrumptious-Prefix.pch -o /var/folders/9j/vw2bf7xn53g9ms_nnp0sct9167gh9d/C/com.apple.Xcode.1282916653/SharedPrecompiledHeaders/Scrumptious-Prefix-aldgqckeinwcskaylyvmmfqfinel/Scrumptious-Prefix.pch.pth0#
+
+CTouch /Users/chrisp/src/ios-sdk/samples/Scrumptious/build/Debug-iphonesimulator/Scrumptious.app
+r0
+

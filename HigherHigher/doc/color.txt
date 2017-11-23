@@ -1,0 +1,16 @@
+﻿Ma mau 
+BG1: c9849c
+BG2 : 1a2225
+BG3:07213f
+
+                 tren (bo)           duoi
+tim:            d3b1c8              78556d
+Vang:           f5ebb4              e8d469
+Do:             eea9af              f3616f
+Xanh duong:     7e96c4              364b75
+Xanh la:        b4d39b              83a471
+Cam:            ec9c83              c56446
+mau bien sang: fff4f0
+mau bien toi: 5172b2
+
+size: 186 x 450 +5(mep)

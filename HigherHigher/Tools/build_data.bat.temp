@@ -1,0 +1,40 @@
+@echo off
+call config.bat
+
+
+echo *** Creating directories ***
+mkdir %TMPRES%
+mkdir %BIN%
+
+echo *** Build Data ***
+
+cd %TOOLS_PATH%
+call copy_files.bat %RES% %TMPRES%
+
+cd %TMPRES%
+rem pack text
+for %%i in (*.text) do (
+	%ANIM_EXPORT% 	-packtext 	%%i		%%i.bin 	UNICODE 	%SRC_DIR_H%\%%i.h
+)
+
+rem pack animation
+for %%i in (*.pine) do (
+	%ANIM_EXPORT% 	-i %%i		-o %%~ni.bpine		QUALITY_INDEX_COLOR	EXPORT_AS_MODULE_IMAGE	PIXEL_16BITS EXPORT_FMODULE_OPACITY USE_MULTI_MODULE_TYPE
+)
+
+for %%i in (*.bat) do (
+	call %%i
+)
+
+%ANIM_EXPORT% 	-packlib %TMPRES%\lib.manifest 	%BIN%	CPP		%SRC_DIR_H%\ResourceManifest.h	%SRC_DIR_CPP%\ResourceManifest.cpp		
+
+
+copy *.h %SRC_DIR_H%
+
+rem del /Q *.*
+cd %PRJ_DIR%
+rem rd %TMPRES%
+
+echo *** Building Data Complete ***
+
+pause
