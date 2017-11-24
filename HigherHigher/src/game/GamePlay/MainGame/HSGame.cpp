@@ -54,17 +54,28 @@ void HSGame::UpdateAndRender()
 #if !defined (MAC_OS)
 	if (GAME()->_isBackkeyPress)
 	{
-		if (GAME()->_waitForProcessBackkeyCount >= 1)
+		if (_dialog.IsOpening())
 		{
-			PDEBUG("\n Press backkey");
+			_dialog._typeDialog = CDialog::enumTypeDialog::DIALOG_NONE;
+			game->_user._countShowRate = 10;
+			game->_user.UserDataSave();
+			_dialog._state = 5;
 			GAME()->_isBackkeyPress = false;
-			GAME()->_waitForProcessBackkeyCount = 0;
-			OS_Exit(false);
 		}
-		else
-		{
-			GAME()->_waitForProcessBackkeyCount++;
+		else {
+			if (GAME()->_waitForProcessBackkeyCount >= 1)
+			{
+				PDEBUG("\n Press backkey");
+				GAME()->_isBackkeyPress = false;
+				GAME()->_waitForProcessBackkeyCount = 0;
+				OS_Exit(false);
+			}
+			else
+			{
+				GAME()->_waitForProcessBackkeyCount++;
+			}
 		}
+		
 	}
 #endif
 	GAME()->setUseOptimizeDrawModule(false);

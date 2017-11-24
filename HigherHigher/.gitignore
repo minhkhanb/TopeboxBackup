@@ -9,3 +9,8 @@ src/_android/.idea/
 src/_android/libs/armeabi/
 src/_android/assets/
 bin/_win/
+src/_win/iPhoneGame.VC.db
+src/_android/local.properties
+doc/tempFile.xlsx
+doc/promotionscreenshot/ipadnew/promotion_05.jpg
+src/_win/ipch/IPHONEGAME-e931e848/IPHONEGAME-23f3d309.ipch

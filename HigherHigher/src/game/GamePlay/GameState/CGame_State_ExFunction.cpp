@@ -738,6 +738,13 @@ bool HSGame::UpdatePause()
 	HSGame* game = (HSGame*)(GAME()->_current_game);
 	if (_isPauseGame)
 	{
+#if !defined (MAC_OS)
+		if (GAME()->_isBackkeyPress)
+		{
+			GAME()->isClosedInterstitialAd = true;
+			GAME()->_isBackkeyPress = false;
+		}
+#endif
 		_timeResume--;
 		switch (_statePause)
 		{

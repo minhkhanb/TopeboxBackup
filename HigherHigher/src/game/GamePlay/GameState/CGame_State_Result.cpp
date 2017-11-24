@@ -1013,7 +1013,7 @@ void HSGame::SettingInit()
 
 
 		_setting_button[i].Init(BUTTON_STATE_NORMAL, 0, 0, A_HVCENTER);
-		if (i == SETTING_BUTTON_TW)
+		if (i == SETTING_BUTTON_TW || i == SETTING_BUTTON_IAPS)
 		{
 			_setting_button[i].SetState(BUTTON_STATE_HIDE);
 		}
@@ -1044,7 +1044,7 @@ void HSGame::SettingRender(float x, float y)
 	}
 	for (int i = 0; i < SETTING_NUM_BUTTON; i++)
 	{
-		if (i == SETTING_BUTTON_TW)
+		if (i == SETTING_BUTTON_TW || i == SETTING_BUTTON_IAPS)
 		{
 			continue;
 		}
@@ -1068,6 +1068,10 @@ void HSGame::SettingRender(float x, float y)
 		else if (i == SETTING_BUTTON_SOUND || i == SETTING_BUTTON_MUSIC)
 		{
 			_setting_button[i].SetPos(_setting_scrollx + x - 2*0.42f*GET_SPRITE(SPRITEID_HUD_SETTING)->GetFModuleWidth(4, 0), y);
+		}
+		else if (i == SETTING_BUTTON_CONTACT || i == SETTING_BUTTON_CREDITS)
+		{
+			_setting_button[i].SetPos(_setting_scrollx + x, y - 0.75f*GET_SPRITE(SPRITEID_HUD_SETTING)->GetFModuleCenterY(4, 0));
 		}
 		else
 		{
